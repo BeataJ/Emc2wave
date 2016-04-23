@@ -1,0 +1,26 @@
+/*main.scss*/
+
+/*Emc2wave bootsrap Sass Theme
+Vertion: 0.01*/
+
+/*Base - *base style, variables, mixins ect. */
+
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_normalize.scss';
+@import 'base/_base.scss';
+
+/*Moduls - indivdual site components*/
+
+@import 'moduls/_animations.scss';
+@import 'moduls/_components.scss';
+@import 'moduls/_sections.scss';
+@import 'moduls/_topography.scss';
+
+
+/*Layouts - Page layout style*/
+
+@import 'layouts/_footer.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_mobile.scss';
+@import 'layouts/_nav.scss';

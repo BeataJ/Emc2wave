@@ -1,2 +1,21 @@
 /*Navbar*/
 
+.navbar {
+    background-color: $nav-color;
+    color:$base-font-color;
+    margin: auto;
+
+    a {
+        color:$base-font-color !important;
+        font-family: $second-font-family;
+        text-transform: uppercase;
+
+    }
+
+    a.navbar-brand {
+        font-size: 30px;
+
+    }
+
+}
+

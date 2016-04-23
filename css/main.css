@@ -1,0 +1,44 @@
+/*main.scss*/
+/*Emc2wave bootsrap Sass Theme
+Vertion: 0.01*/
+/*Base - *base style, variables, mixins ect. */
+/*_variables.scss*/
+/*Fonts*/
+/*Background Color*/
+/*_base.scss*/
+/* line 3, ../scss/base/_base.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #002266;
+  line-height: 1.7em;
+}
+/* line 13, ../scss/base/_base.scss */
+body a,
+body a:hover,
+body a:focus,
+body a:active,
+body a.active {
+  color: #99b2ff !important;
+  outline: none;
+}
+
+/*Moduls - indivdual site components*/
+/*Layouts - Page layout style*/
+/*Navbar*/
+/* line 3, ../scss/layouts/_nav.scss */
+.navbar {
+  background-color: #002266;
+  color: white;
+  margin: auto;
+}
+/* line 8, ../scss/layouts/_nav.scss */
+.navbar a {
+  color: white !important;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+}
+/* line 15, ../scss/layouts/_nav.scss */
+.navbar a.navbar-brand {
+  font-size: 30px;
+}
