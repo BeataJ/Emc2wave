@@ -5,13 +5,31 @@ Vertion: 0.01*/
 /*_variables.scss*/
 /*Fonts*/
 /*Background Color*/
+/* line 1, ../scss/base/_normalize.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* line 7, ../scss/base/_normalize.scss */
+hr {
+  padding-top: 0px;
+  text-align: center;
+  max-width: 200px;
+  border: none;
+  border-top: solid 5px;
+  color: #7f6c3f;
+  margin: 25px auto 30px;
+}
+
 /*_base.scss*/
 /* line 3, ../scss/base/_base.scss */
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #002266;
-  line-height: 1.7em;
+  overflow-x: hidden;
 }
 /* line 13, ../scss/base/_base.scss */
 body a,
@@ -25,6 +43,83 @@ body a.active {
 
 /*Moduls - indivdual site components*/
 /*Layouts - Page layout style*/
+/*header*/
+/* line 3, ../scss/layouts/_header.scss */
+header {
+  text-align: center;
+  background: #e3e5ea;
+}
+/* line 7, ../scss/layouts/_header.scss */
+header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+/* line 12, ../scss/layouts/_header.scss */
+header svg {
+  display: block;
+  margin: 0 auto 20px;
+}
+/* line 17, ../scss/layouts/_header.scss */
+header .intro-text .welcome {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+/* line 25, ../scss/layouts/_header.scss */
+header .intro-text .make {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+/*mobile*/
+/*header*/
+@media (min-width: 768px) {
+  /* line 6, ../scss/layouts/_mobile.scss */
+  header .container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+
+  /* line 11, ../scss/layouts/_mobile.scss */
+  header .intro-text .welcome {
+    font-size: 4.75em;
+  }
+
+  /* line 15, ../scss/layouts/_mobile.scss */
+  header .intro-text .make {
+    font-size: 1.75em;
+  }
+}
+/*navbar*/
+@media (min-width: 768px) {
+  /* line 23, ../scss/layouts/_mobile.scss */
+  .navbar-fixed-top {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+
+  /* line 30, ../scss/layouts/_mobile.scss */
+  .navbarfixed-top .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  /* line 37, ../scss/layouts/_mobile.scss */
+  .navbar-fixed-top.navbar-shrink {
+    padding: 10px 0;
+  }
+
+  /* line 41, ../scss/layouts/_mobile.scss */
+  .navbar-fixed-top.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
 /*Navbar*/
 /* line 3, ../scss/layouts/_nav.scss */
 .navbar {
@@ -37,8 +132,13 @@ body a.active {
   color: white !important;
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
+  font-weight: 700;
 }
-/* line 15, ../scss/layouts/_nav.scss */
+/* line 16, ../scss/layouts/_nav.scss */
 .navbar a.navbar-brand {
   font-size: 30px;
+}
+/* line 21, ../scss/layouts/_nav.scss */
+.navbar .navbar-nav {
+  letter-spacing: 1px;
 }

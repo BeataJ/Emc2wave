@@ -9,12 +9,17 @@
         color:$base-font-color !important;
         font-family: $second-font-family;
         text-transform: uppercase;
+        font-weight: 700;
 
     }
 
     a.navbar-brand {
         font-size: 30px;
 
+    }
+
+    .navbar-nav {
+        letter-spacing: 1px;
     }
 
 }

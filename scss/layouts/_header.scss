@@ -1,0 +1,29 @@
+/*header*/
+
+header {
+    text-align: center;
+    background:$th-color;
+
+    .container {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    svg {
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .intro-text .welcome {
+        display: block;
+        font-family: $second-font-family;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2em;
+    }
+
+    .intro-text .make {
+        font-size: 1.25em;
+        font-weight: 300;
+    }
+}
