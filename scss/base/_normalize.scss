@@ -4,13 +4,9 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
 }
 
-hr {
-    padding-top: 0px;
-    text-align: center;
-    max-width: 200px;
-    border: none;
-    border-top: solid 5px;
-    color: $first-line-color;
-    margin: 25px auto 30px;
 
+
+.glyphicon.glyphicon-fire{
+    color: $fire-color;
+    font-size: 40px;
 }

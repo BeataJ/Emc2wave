@@ -12,15 +12,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-/* line 7, ../scss/base/_normalize.scss */
-hr {
-  padding-top: 0px;
-  text-align: center;
-  max-width: 200px;
-  border: none;
-  border-top: solid 5px;
+/* line 9, ../scss/base/_normalize.scss */
+.glyphicon.glyphicon-fire {
   color: #7f6c3f;
-  margin: 25px auto 30px;
+  font-size: 40px;
 }
 
 /*_base.scss*/
@@ -42,6 +37,66 @@ body a.active {
 }
 
 /*Moduls - indivdual site components*/
+/*components*/
+/*--------------------------
+    Robot-------  */
+/* line 6, ../scss/moduls/_components.scss */
+#robot-head {
+  width: 70px;
+  height: 70px;
+  fill: #997722;
+  stroke: #997722;
+}
+
+/* line 13, ../scss/moduls/_components.scss */
+#robot-cap {
+  width: 23px;
+  height: 10px;
+  fill: #997722;
+  stroke: #997722;
+}
+
+/* line 20, ../scss/moduls/_components.scss */
+line {
+  fill: #997722;
+  stroke: #997722;
+  stroke-width: 3px;
+}
+
+/* line 26, ../scss/moduls/_components.scss */
+circle {
+  fill: #0049e5;
+  stroke: #0049e5;
+}
+
+/* line 31, ../scss/moduls/_components.scss */
+#robot-ear {
+  width: 10px;
+  height: 20px;
+  fill: #0049e5;
+  stroke: #0049e5;
+}
+
+/* line 38, ../scss/moduls/_components.scss */
+#eye {
+  fill: white;
+  stroke: white;
+}
+
+/* line 43, ../scss/moduls/_components.scss */
+#eye2 {
+  fill: #3d424c;
+  stroke: #3d424c;
+}
+
+/* line 48, ../scss/moduls/_components.scss */
+#mouth {
+  width: 40px;
+  height: 6px;
+  fill: white;
+  stroke: white;
+}
+
 /*Layouts - Page layout style*/
 /*header*/
 /* line 3, ../scss/layouts/_header.scss */

@@ -1,0 +1,53 @@
+/*components*/
+
+/*--------------------------
+    Robot-------  */
+
+#robot-head {
+    width: 70px;
+    height: 70px;
+    fill:$robot-color;
+    stroke:$robot-color;
+}
+
+#robot-cap {
+    width: 23px;
+    height: 10px;
+    fill:$robot-color;
+    stroke:$robot-color;
+}
+
+line{
+  fill:$robot-color;
+  stroke:$robot-color;
+  stroke-width: 3px;
+}
+
+circle {
+  fill:$base-color;
+  stroke:$base-color;
+}
+
+#robot-ear {
+    width: 10px;
+    height: 20px;
+    fill:$base-color;
+    stroke:$base-color;
+}
+
+#eye {
+    fill:$primary-color;
+    stroke:$primary-color;
+}
+
+#eye2 {
+    fill:$robot-eye2;
+    stroke:$robot-eye2;
+}
+
+#mouth {
+    width: 40px;
+    height: 6px;
+    fill:$primary-color;
+    stroke:$primary-color;
+}
