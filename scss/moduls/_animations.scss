@@ -1,0 +1,25 @@
+/*_animations.scss*/
+
+/*Robot------------------*/
+
+/*color animation*/
+
+@keyframes table-color{
+    0% {fill: $robot-table;}
+    100% {fill: $robot-table2;}
+}
+
+#table {
+    animation: table-color 1s infinite linear;
+}
+
+@keyframes button-color {
+    0% {fill: $robot-button;}
+    50% {transform: scale(1.5);}
+    100% {fill: $base-color;}
+}
+
+#button3 {
+    transform-origin: center;
+    animation: button-color 5s infinite .5s;
+}

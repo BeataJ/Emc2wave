@@ -17,30 +17,30 @@
     stroke:$robot-color;
 }
 
-line{
+#line-antennae1, #line-antennae2{
   fill:$robot-color;
   stroke:$robot-color;
   stroke-width: 3px;
 }
 
-circle {
+#circle-antennae1, #circle-antennae2{
   fill:$base-color;
   stroke:$base-color;
 }
 
-#robot-ear {
+#robot-ear1, #robot-ear2 {
     width: 10px;
     height: 20px;
     fill:$base-color;
     stroke:$base-color;
 }
 
-#eye {
+#eye1, #eye2 {
     fill:$primary-color;
     stroke:$primary-color;
 }
 
-#eye2 {
+#eye11, #eye22 {
     fill:$robot-eye2;
     stroke:$robot-eye2;
 }
@@ -51,3 +51,72 @@ circle {
     fill:$primary-color;
     stroke:$primary-color;
 }
+
+#neck {
+    width: 30px;
+    height: 10px;
+    fill:$base-color;
+    stroke:$base-color;
+}
+
+#torso {
+    width: 95px;
+    height: 70px;
+    fill:$robot-color;
+    stroke:$robot-color;
+}
+
+#leg1, #leg2 {
+    width: 20px;
+    height: 60px;
+    fill:$robot-color;
+    stroke:$robot-color;
+}
+
+#shoe1, #shoe2 {
+    width: 30px;
+    height: 20px;
+    fill:$base-color;
+    stroke:$base-color;
+}
+
+#join-arm1, #join-arm2 {
+    width: 5px;
+    height: 15px;
+    fill:$base-color;
+    stroke:$base-color;
+}
+
+#arm1, #arm2 {
+    width: 15px;
+    height: 60px;
+    fill:$robot-color;
+    stroke:$robot-color;
+}
+
+#hand1, #hand2 {
+    width: 25px;
+    height: 5px;
+    fill:$base-color;
+    stroke:$base-color;
+}
+
+#finger1, #finger2, #finger3, #finger4 {
+    width: 6px;
+    height: 20px;
+    fill:$base-color;
+    stroke:$base-color;
+}
+
+#table {
+   width: 75px;
+   height: 30px;
+   fill:$robot-table;
+   stroke:$robot-table;
+}
+
+#button1, #button2, #button3 {
+   fill:$robot-button;
+   stroke:$robot-button;
+}
+/*--end Robot ---------------*/

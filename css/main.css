@@ -37,6 +37,49 @@ body a.active {
 }
 
 /*Moduls - indivdual site components*/
+/*_animations.scss*/
+/*Robot------------------*/
+/*color animation*/
+@keyframes table-color {
+  /* line 8, ../scss/moduls/_animations.scss */
+  0% {
+    fill: #f2c779;
+  }
+
+  /* line 9, ../scss/moduls/_animations.scss */
+  100% {
+    fill: #99bcff;
+  }
+}
+
+/* line 12, ../scss/moduls/_animations.scss */
+#table {
+  animation: table-color 1s infinite linear;
+}
+
+@keyframes button-color {
+  /* line 17, ../scss/moduls/_animations.scss */
+  0% {
+    fill: #ddddbb;
+  }
+
+  /* line 18, ../scss/moduls/_animations.scss */
+  50% {
+    transform: scale(1.5);
+  }
+
+  /* line 19, ../scss/moduls/_animations.scss */
+  100% {
+    fill: #0049e5;
+  }
+}
+
+/* line 22, ../scss/moduls/_animations.scss */
+#button3 {
+  transform-origin: center;
+  animation: button-color 5s infinite .5s;
+}
+
 /*components*/
 /*--------------------------
     Robot-------  */
@@ -57,20 +100,20 @@ body a.active {
 }
 
 /* line 20, ../scss/moduls/_components.scss */
-line {
+#line-antennae1, #line-antennae2 {
   fill: #997722;
   stroke: #997722;
   stroke-width: 3px;
 }
 
 /* line 26, ../scss/moduls/_components.scss */
-circle {
+#circle-antennae1, #circle-antennae2 {
   fill: #0049e5;
   stroke: #0049e5;
 }
 
 /* line 31, ../scss/moduls/_components.scss */
-#robot-ear {
+#robot-ear1, #robot-ear2 {
   width: 10px;
   height: 20px;
   fill: #0049e5;
@@ -78,13 +121,13 @@ circle {
 }
 
 /* line 38, ../scss/moduls/_components.scss */
-#eye {
+#eye1, #eye2 {
   fill: white;
   stroke: white;
 }
 
 /* line 43, ../scss/moduls/_components.scss */
-#eye2 {
+#eye11, #eye22 {
   fill: #3d424c;
   stroke: #3d424c;
 }
@@ -97,6 +140,85 @@ circle {
   stroke: white;
 }
 
+/* line 55, ../scss/moduls/_components.scss */
+#neck {
+  width: 30px;
+  height: 10px;
+  fill: #0049e5;
+  stroke: #0049e5;
+}
+
+/* line 62, ../scss/moduls/_components.scss */
+#torso {
+  width: 95px;
+  height: 70px;
+  fill: #997722;
+  stroke: #997722;
+}
+
+/* line 69, ../scss/moduls/_components.scss */
+#leg1, #leg2 {
+  width: 20px;
+  height: 60px;
+  fill: #997722;
+  stroke: #997722;
+}
+
+/* line 76, ../scss/moduls/_components.scss */
+#shoe1, #shoe2 {
+  width: 30px;
+  height: 20px;
+  fill: #0049e5;
+  stroke: #0049e5;
+}
+
+/* line 83, ../scss/moduls/_components.scss */
+#join-arm1, #join-arm2 {
+  width: 5px;
+  height: 15px;
+  fill: #0049e5;
+  stroke: #0049e5;
+}
+
+/* line 90, ../scss/moduls/_components.scss */
+#arm1, #arm2 {
+  width: 15px;
+  height: 60px;
+  fill: #997722;
+  stroke: #997722;
+}
+
+/* line 97, ../scss/moduls/_components.scss */
+#hand1, #hand2 {
+  width: 25px;
+  height: 5px;
+  fill: #0049e5;
+  stroke: #0049e5;
+}
+
+/* line 104, ../scss/moduls/_components.scss */
+#finger1, #finger2, #finger3, #finger4 {
+  width: 6px;
+  height: 20px;
+  fill: #0049e5;
+  stroke: #0049e5;
+}
+
+/* line 111, ../scss/moduls/_components.scss */
+#table {
+  width: 75px;
+  height: 30px;
+  fill: #f2c779;
+  stroke: #f2c779;
+}
+
+/* line 118, ../scss/moduls/_components.scss */
+#button1, #button2, #button3 {
+  fill: #ddddbb;
+  stroke: #ddddbb;
+}
+
+/*--end Robot ---------------*/
 /*Layouts - Page layout style*/
 /*header*/
 /* line 3, ../scss/layouts/_header.scss */
