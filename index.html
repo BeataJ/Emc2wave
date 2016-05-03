@@ -77,42 +77,65 @@
               <div class="row">
                  <div class="col-lg-12">
                     <svg class="img-responsive robot" viewbox="0 0 300 300" height="300" width="300" version="1.1" xmlns="http://www.w3.org/TR/SVG">
+                     <g id="head">
                         <rect x="100" y="50" id="robot-head"/>
                         <rect x="123" y="35" id="robot-cap"/>
-                        <g id="head-antennae">
+                        <g id="head-antennae1">
                           <line x1="110" y1="10" x2="135" y2="35" id="line-antennae1"/>
-                          <line x1="150" y1="15" x2="135" y2="35" id="line-antennae2" />
                           <circle cx="110" cy="10" r="4" id="circle-antennae1" />
+                         </g>
+
+                         <g id="head-antennae2">
+                          <line x1="150" y1="15" x2="135" y2="35" id="line-antennae2" />
                           <circle cx="150" cy="15" r="4" id="circle-antennae2"/>
                         </g>
+
+                        <g id="ears">
                         <rect x="90" y="70" id="robot-ear1"/>
                         <rect x="170" y="70" id="robot-ear2"/>
+                        </g>
+
                         <circle cx="115" cy="78" r="8" id="eye1"/>
                         <circle cx="155" cy="78" r="8" id="eye2"/>
                         <circle cx="115" cy="78" r="4" id="eye11"/>
                         <circle cx="155" cy="78" r="4" id="eye22"/>
                         <rect x="115" y="100" id="mouth"/>
                         <rect x="118" y="123" id="neck"/>
+                    </g>
+
                         <rect x="90" y="138" id="torso"/>
+
+                    <g id="robot-leg1">
                         <rect x="105" y="211" id="leg1"/>
-                        <rect x="150" y="211" id="leg2"/>
                         <rect x="100" y="271" id="shoe1"/>
+                    </g>
+
+                    <g id="robot-leg2">
+                        <rect x="150" y="211" id="leg2"/>
                         <rect x="145" y="271" id="shoe2"/>
-                        <rect x="82" y="140" id="join-arm1"/>
-                        <rect x="188" y="140" id="join-arm2"/>
+                    </g>
+
+                    <g id="left-arm">
+                         <rect x="82" y="140" id="join-arm1"/>
                         <rect x="64" y="140" id="arm1"/>
-                        <rect x="196" y="140" id="arm2"/>
                         <rect x="59" y="201" id="hand1"/>
-                        <rect x="191" y="201" id="hand2"/>
                         <rect x="59" y="205" id="finger1" transform="rotate(-10 59 205)"/>
                         <rect x="78" y="205" id="finger2" transform="rotate(10 84 205)"/>
+                    </g>
+
+                    <g id="right-arm">
+                        <rect x="188" y="140" id="join-arm2"/>
+                        <rect x="196" y="140" id="arm2"/>
+                        <rect x="191" y="201" id="hand2"/>
                         <rect x="191" y="205" id="finger3" transform="rotate(-10 191 205)"/>
                         <rect x="210" y="205" id="finger4" transform="rotate(10 210 205)"/>
+                    </g>
+
                         <rect x="100" y="170"  rx="7" ry="7" id="table" />
                         <circle cx="115" cy="155" r="7" id="button1"/>
                         <circle cx="140" cy="155" r="7" id="button2"/>
                         <circle cx="165" cy="155" r="7" id="button3"/>
-                        </svg>
+                     </svg>
                     <div class="intro-text">
                        <span class="welcome">Welcome!</span>
                         <div><span class="glyphicon glyphicon-fire" aria-hidden="true"></span></div>

@@ -80,6 +80,207 @@ body a.active {
   animation: button-color 5s infinite .5s;
 }
 
+/*moving robot*/
+@keyframes up-down-left {
+  /* line 30, ../scss/moduls/_animations.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 31, ../scss/moduls/_animations.scss */
+  50% {
+    transform: rotate(50deg);
+  }
+
+  /* line 32, ../scss/moduls/_animations.scss */
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+
+/* line 35, ../scss/moduls/_animations.scss */
+#left-arm {
+  transform-origin: 84px 140px;
+  animation: up-down-left 2s ease-in .5s;
+}
+
+@keyframes up-down-right {
+  /* line 41, ../scss/moduls/_animations.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 42, ../scss/moduls/_animations.scss */
+  50% {
+    transform: rotate(-50deg);
+  }
+
+  /* line 43, ../scss/moduls/_animations.scss */
+  100% {
+    transform: rotate(1deg);
+  }
+}
+
+/* line 46, ../scss/moduls/_animations.scss */
+#right-arm {
+  transform-origin: 188px 140px;
+  animation: up-down-right 2s ease-in .5s;
+}
+
+@keyframes head-shake {
+  /* line 52, ../scss/moduls/_animations.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 53, ../scss/moduls/_animations.scss */
+  10% {
+    transform: rotate(30deg);
+  }
+
+  /* line 54, ../scss/moduls/_animations.scss */
+  20% {
+    transform: rotate(0deg);
+  }
+
+  /* line 55, ../scss/moduls/_animations.scss */
+  30% {
+    transform: rotate(30deg);
+  }
+
+  /* line 56, ../scss/moduls/_animations.scss */
+  40% {
+    transform: rotate(0deg);
+  }
+
+  /* line 57, ../scss/moduls/_animations.scss */
+  50% {
+    transform: rotate(-30deg);
+  }
+
+  /* line 58, ../scss/moduls/_animations.scss */
+  60% {
+    transform: rotate(0deg);
+  }
+
+  /* line 59, ../scss/moduls/_animations.scss */
+  70% {
+    transform: rotate(-30deg);
+  }
+}
+
+/* line 62, ../scss/moduls/_animations.scss */
+#head {
+  transform-origin: center;
+  animation: head-shake 4s ease 3s;
+}
+
+@keyframes ears-up {
+  /* line 68, ../scss/moduls/_animations.scss */
+  0% {
+    transform: translateY(0px);
+  }
+
+  /* line 69, ../scss/moduls/_animations.scss */
+  25% {
+    transform: translateY(10px);
+  }
+
+  /* line 70, ../scss/moduls/_animations.scss */
+  50% {
+    transform: translateY(0px);
+  }
+
+  /* line 71, ../scss/moduls/_animations.scss */
+  75% {
+    transform: translateY(-10px);
+  }
+
+  /* line 72, ../scss/moduls/_animations.scss */
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* line 75, ../scss/moduls/_animations.scss */
+#ears {
+  animation: ears-up 1s ease 7s;
+}
+
+@keyframes leg-up {
+  /* line 81, ../scss/moduls/_animations.scss */
+  0% {
+    transform: translateY(0px);
+  }
+
+  /* line 82, ../scss/moduls/_animations.scss */
+  25% {
+    transform: translateY(-20px);
+  }
+
+  /* line 83, ../scss/moduls/_animations.scss */
+  50% {
+    transform: translateY(0px);
+  }
+
+  /* line 84, ../scss/moduls/_animations.scss */
+  75% {
+    transform: translateY(-20px);
+  }
+
+  /* line 85, ../scss/moduls/_animations.scss */
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* line 88, ../scss/moduls/_animations.scss */
+#robot-leg1 {
+  animation: leg-up 3s ease-in 7s;
+}
+
+/* line 92, ../scss/moduls/_animations.scss */
+#robot-leg2 {
+  animation: leg-up 3s ease-in 8s;
+}
+
+@keyframes antennae1 {
+  /* line 97, ../scss/moduls/_animations.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 98, ../scss/moduls/_animations.scss */
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+/* line 101, ../scss/moduls/_animations.scss */
+#head-antennae1 {
+  transform-origin: 135px 35px;
+  animation: antennae1 1s ease infinite 8s;
+}
+
+@keyframes antennae2 {
+  /* line 107, ../scss/moduls/_animations.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 108, ../scss/moduls/_animations.scss */
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+/* line 111, ../scss/moduls/_animations.scss */
+#head-antennae2 {
+  transform-origin: 135px 35px;
+  animation: antennae2 1s ease infinite 8s;
+}
+
+/*-----end robot animations*/
 /*components*/
 /*--------------------------
     Robot-------  */
