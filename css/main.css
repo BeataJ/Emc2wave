@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 .glyphicon.glyphicon-fire {
   color: #7f6c3f;
   font-size: 40px;
+  margin: 20px auto 30px auto;
 }
 
 /*_base.scss*/
@@ -420,7 +421,36 @@ body a.active {
 }
 
 /*--end Robot ---------------*/
+/*_sections.scss*/
+/* line 3, ../scss/moduls/_sections.scss */
+section {
+  padding: 100px 0;
+}
+/* line 6, ../scss/moduls/_sections.scss */
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
+/* line 12, ../scss/moduls/_sections.scss */
+#web, #network {
+  background-color: #ccd8ff;
+}
+
+/* line 16, ../scss/moduls/_sections.scss */
+#data, #serwer, #about {
+  background-color: white;
+}
+
 /*Layouts - Page layout style*/
+/*_footer.scss*/
+/* line 3, ../scss/layouts/_footer.scss */
+footer {
+  padding: 25px 0;
+  text-align: center;
+  background-color: #776655;
+}
+
 /*header*/
 /* line 3, ../scss/layouts/_header.scss */
 header {
@@ -470,9 +500,10 @@ header .intro-text .make {
     font-size: 1.75em;
   }
 }
+/*----end header--------*/
 /*navbar*/
 @media (min-width: 768px) {
-  /* line 23, ../scss/layouts/_mobile.scss */
+  /* line 25, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
@@ -480,7 +511,7 @@ header .intro-text .make {
     transition: padding 0.3s;
   }
 
-  /* line 30, ../scss/layouts/_mobile.scss */
+  /* line 32, ../scss/layouts/_mobile.scss */
   .navbarfixed-top .navbar-brand {
     font-size: 2em;
     -webkit-transition: all 0.3s;
@@ -488,14 +519,22 @@ header .intro-text .make {
     transition: all 0.3s;
   }
 
-  /* line 37, ../scss/layouts/_mobile.scss */
+  /* line 39, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0;
   }
 
-  /* line 41, ../scss/layouts/_mobile.scss */
+  /* line 43, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
+  }
+}
+/*-----end navbar---------*/
+/*sections*/
+@media (max-width: 767px) {
+  /* line 52, ../scss/layouts/_mobile.scss */
+  section {
+    padding: 75px 0;
   }
 }
 /*Navbar*/

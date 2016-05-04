@@ -1,0 +1,18 @@
+/*_sections.scss*/
+
+section {
+    padding: 100px 0;
+
+    h2 {
+        margin: 0;
+        font-size:3em;
+    }
+}
+
+ #web, #network {
+        background-color:$second-color;
+}
+
+#data, #serwer, #about {
+    background-color: $primary-color;
+}

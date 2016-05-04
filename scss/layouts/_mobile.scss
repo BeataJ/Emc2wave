@@ -16,6 +16,8 @@
         font-size: 1.75em;
     }
 }
+/*----end header--------*/
+
 
 /*navbar*/
 
@@ -40,5 +42,14 @@
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+}
+/*-----end navbar---------*/
+
+/*sections*/
+
+@media (max-width: 767px){
+    section {
+        padding: 75px 0;
     }
 }
