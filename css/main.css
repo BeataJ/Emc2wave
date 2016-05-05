@@ -5,6 +5,7 @@ Vertion: 0.01*/
 /*_variables.scss*/
 /*Fonts*/
 /*Background Color*/
+/*Complementary Color sheme -default*/
 /* line 1, ../scss/base/_normalize.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu", sans-serif;
@@ -17,6 +18,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #7f6c3f;
   font-size: 40px;
   margin: 20px auto 30px auto;
+}
+
+/* line 15, ../scss/base/_normalize.scss */
+.iweb {
+  margin-left: 20px;
 }
 
 /*_base.scss*/
@@ -421,6 +427,38 @@ body a.active {
 }
 
 /*--end Robot ---------------*/
+/*database*/
+/* line 126, ../scss/moduls/_components.scss */
+#top-line, #line {
+  stroke: #3d424c;
+  stroke-width: 5px;
+}
+
+/* line 131, ../scss/moduls/_components.scss */
+#arrow {
+  fill: #3d424c;
+  stroke: #3d424c;
+  stroke-width: 1px;
+}
+
+/* line 137, ../scss/moduls/_components.scss */
+#datab {
+  width: 100px;
+  height: 80px;
+  fill: #f2c779;
+  stroke: #f2c779;
+  stroke-width: 1px;
+}
+
+/* line 145, ../scss/moduls/_components.scss */
+#stripA, #stripB, #stripC {
+  width: 100px;
+  height: 10px;
+  fill: #8899aa;
+  stroke: #8899aa;
+  stroke-width: 1px;
+}
+
 /*_sections.scss*/
 /* line 3, ../scss/moduls/_sections.scss */
 section {

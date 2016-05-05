@@ -120,3 +120,33 @@
    stroke:$robot-button;
 }
 /*--end Robot ---------------*/
+
+/*database*/
+
+#top-line, #line {
+    stroke: $database-line;
+    stroke-width: 5px;
+}
+
+#arrow {
+    fill: $database-line;
+    stroke:$database-line;
+    stroke-width: 1px;
+}
+
+#datab {
+    width: 100px;
+    height: 80px;
+    fill: $robot-table;
+    stroke:$robot-table;
+    stroke-width: 1px
+}
+
+#stripA, #stripB, #stripC {
+    width: 100px;
+    height: 10px;
+    fill:$data-strip ;
+    stroke: $data-strip;
+    stroke-width: 1px;
+}
+
