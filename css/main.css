@@ -427,7 +427,7 @@ body a.active {
 }
 
 /*--end Robot ---------------*/
-/*database*/
+/*------database--------------*/
 /* line 126, ../scss/moduls/_components.scss */
 #top-line, #line {
   stroke: #3d424c;
@@ -446,8 +446,8 @@ body a.active {
   width: 100px;
   height: 80px;
   fill: #f2c779;
-  stroke: #f2c779;
-  stroke-width: 1px;
+  stroke: #3d424c;
+  stroke-width: 4px;
 }
 
 /* line 145, ../scss/moduls/_components.scss */
@@ -457,6 +457,138 @@ body a.active {
   fill: #8899aa;
   stroke: #8899aa;
   stroke-width: 1px;
+}
+
+/*----end database-------------*
+
+/*-----web-----------*/
+/*lamp*/
+/* line 157, ../scss/moduls/_components.scss */
+#lamp-footA, #lamp-footB {
+  fill: #0035a8;
+}
+
+/* line 161, ../scss/moduls/_components.scss */
+#lamp-legA {
+  fill: #0035a8;
+  width: 8px;
+  height: 55px;
+}
+
+/* line 167, ../scss/moduls/_components.scss */
+#lamp-legB {
+  fill: #0035a8;
+  width: 8px;
+  height: 65px;
+}
+
+/* line 173, ../scss/moduls/_components.scss */
+#leg-join, #lamp-join {
+  fill: #0035a8;
+  stroke: white;
+  stroke-width: 2px;
+}
+
+/* line 179, ../scss/moduls/_components.scss */
+#lampA {
+  fill: #0035a8;
+  height: 40px;
+  width: 30px;
+}
+
+/* line 185, ../scss/moduls/_components.scss */
+#lamp-bulb {
+  fill: #ffffee;
+}
+
+/*end lamp*/
+/*computer*/
+/* line 194, ../scss/moduls/_components.scss */
+#computer {
+  fill: white;
+  stroke: #3d424c;
+  stroke-width: 10px;
+  width: 170px;
+  height: 130px;
+}
+
+/* line 202, ../scss/moduls/_components.scss */
+#comp-leg {
+  fill: #3d424c;
+}
+
+/*end computer*/
+/*mobil*/
+/* line 209, ../scss/moduls/_components.scss */
+#mobil {
+  fill: white;
+  stroke: #3d424c;
+  stroke-width: 5px;
+  width: 40px;
+  height: 65px;
+}
+
+/* line 217, ../scss/moduls/_components.scss */
+#tabloid {
+  fill: white;
+  stroke: #3d424c;
+  stroke-width: 5px;
+  width: 90px;
+  height: 115px;
+}
+
+/* line 225, ../scss/moduls/_components.scss */
+#SA {
+  fill: #d8caad;
+  stroke: #d8caad;
+  stroke-width: 1px;
+  width: 30px;
+  height: 11px;
+}
+
+/* line 233, ../scss/moduls/_components.scss */
+#SB {
+  fill: #d8caad;
+  stroke: #d8caad;
+  stroke-width: 1px;
+  width: 30px;
+  height: 60px;
+}
+
+/* line 241, ../scss/moduls/_components.scss */
+#SC {
+  fill: #8899aa;
+  stroke: #8899aa;
+  stroke-width: 1px;
+  width: 90px;
+  height: 11px;
+}
+
+/* line 249, ../scss/moduls/_components.scss */
+#SD {
+  fill: #ddddbb;
+  stroke: #ddddbb;
+  stroke-width: 1px;
+  width: 90px;
+  height: 60px;
+}
+
+/* line 257, ../scss/moduls/_components.scss */
+#SE {
+  fill: #f2c779;
+  stroke: #f2c779;
+  stroke-width: 1px;
+  width: 120px;
+  height: 11px;
+}
+
+/* line 265, ../scss/moduls/_components.scss */
+#MSA {
+  fill: #99b9ff;
+  stroke: #99b9ff;
+  stroke-width: 1px;
+  width: 29px;
+  height: 6px;
 }
 
 /*_sections.scss*/

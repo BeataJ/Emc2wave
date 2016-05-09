@@ -121,7 +121,7 @@
 }
 /*--end Robot ---------------*/
 
-/*database*/
+/*------database--------------*/
 
 #top-line, #line {
     stroke: $database-line;
@@ -138,8 +138,8 @@
     width: 100px;
     height: 80px;
     fill: $robot-table;
-    stroke:$robot-table;
-    stroke-width: 1px
+    stroke:$database-line;
+    stroke-width: 4px
 }
 
 #stripA, #stripB, #stripC {
@@ -150,3 +150,122 @@
     stroke-width: 1px;
 }
 
+/*----end database-------------*
+
+/*-----web-----------*/
+/*lamp*/
+#lamp-footA, #lamp-footB {
+    fill: $lamp;
+}
+
+#lamp-legA {
+    fill: $lamp;
+    width: 8px;
+    height: 55px;
+}
+
+ #lamp-legB {
+   fill: $lamp;
+    width: 8px;
+    height: 65px;
+}
+
+#leg-join, #lamp-join {
+    fill: $lamp;
+    stroke: $primary-color;
+    stroke-width: 2px;
+}
+
+#lampA {
+    fill:$lamp;
+    height: 40px;
+    width: 30px;
+}
+
+#lamp-bulb {
+    fill:$lamp-bulb;
+}
+
+/*end lamp*/
+
+
+/*computer*/
+
+#computer {
+    fill: $primary-color;
+    stroke: $database-line;
+    stroke-width: 10px;
+    width: 170px;
+    height: 130px;
+}
+
+#comp-leg {
+    fill:$database-line;
+}
+/*end computer*/
+
+/*mobil*/
+
+#mobil {
+    fill: $primary-color;
+    stroke: $database-line;
+    stroke-width: 5px;
+    width: 40px;
+    height: 65px;
+}
+
+#tabloid {
+    fill: $primary-color;
+    stroke: $database-line;
+    stroke-width: 5px;
+    width: 90px;
+    height: 115px;
+}
+
+#SA {
+    fill: $SA;
+    stroke: $SA;
+    stroke-width: 1px;
+    width: 30px;
+    height: 11px;
+}
+
+#SB {
+  fill: $SA;
+  stroke: $SA;
+  stroke-width: 1px;
+  width: 30px;
+  height: 60px;
+}
+
+#SC {
+    fill: $SC;
+    stroke:$SC;
+    stroke-width: 1px;
+    width: 90px;
+    height: 11px;
+}
+
+#SD {
+    fill: $robot-button;
+    stroke: $robot-button;
+    stroke-width: 1px;
+    width: 90px;
+    height: 60px;
+}
+
+#SE {
+   fill: $robot-table;
+   stroke: $robot-table;
+   stroke-width: 1px;
+   width: 120px;
+   height: 11px;
+}
+
+#MSA {
+   fill: $MSA;
+   stroke: $MSA;
+   stroke-width: 1px;
+   width: 29px;
+   height: 6px;
+}
