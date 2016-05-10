@@ -591,6 +591,130 @@ body a.active {
   height: 6px;
 }
 
+/* line 273, ../scss/moduls/_components.scss */
+#MSB {
+  fill: #f2eada;
+  stroke: #f2eada;
+  stroke-width: 1px;
+  width: 13px;
+  height: 25px;
+}
+
+/* line 281, ../scss/moduls/_components.scss */
+#MSC {
+  fill: #7f6c3f;
+  stroke: #7f6c3f;
+  stroke-width: 1px;
+  width: 29px;
+  height: 8px;
+}
+
+/* line 289, ../scss/moduls/_components.scss */
+#TSA {
+  fill: #ddddbb;
+  stroke: #ddddbb;
+  stroke-width: 1px;
+  width: 75px;
+  height: 20px;
+}
+
+/* line 297, ../scss/moduls/_components.scss */
+#TSB {
+  fill: #99b9ff;
+  stroke: #99b9ff;
+  stroke-width: 1px;
+  width: 20px;
+  height: 50px;
+}
+
+/* line 305, ../scss/moduls/_components.scss */
+#TSC {
+  fill: #776655;
+  stroke: #776655;
+  stroke-width: 1px;
+  width: 20px;
+  height: 50px;
+}
+
+/* line 313, ../scss/moduls/_components.scss */
+#TSD {
+  fill: #f2c779;
+  stroke: #f2c779;
+  stroke-width: 1px;
+  width: 20px;
+  height: 50px;
+}
+
+/* line 321, ../scss/moduls/_components.scss */
+#TSE {
+  fill: #d8caad;
+  stroke: #d8caad;
+  stroke-width: 1px;
+  width: 75px;
+  height: 15px;
+}
+
+/*--------- end web-----*/
+/*---server----*/
+/* line 333, ../scss/moduls/_components.scss */
+ellipse {
+  fill: #99bcff;
+  stroke: #99bcff;
+  stroke-width: 1px;
+}
+
+/* line 339, ../scss/moduls/_components.scss */
+#copmA, #copmB, #copmC {
+  fill: #3d424c;
+  stroke: #2B2B2B;
+  stroke-width: 2px;
+  width: 50px;
+  height: 100px;
+}
+
+/* line 347, ../scss/moduls/_components.scss */
+#lineA {
+  fill: #e3e5ea;
+  stroke: #2B2B2B;
+  stroke-width: 2px;
+  width: 8px;
+  height: 35px;
+}
+
+/* line 355, ../scss/moduls/_components.scss */
+#lineD {
+  fill: #e3e5ea;
+  stroke: #2B2B2B;
+  stroke-width: 2px;
+  width: 210px;
+  height: 8px;
+}
+
+/* line 363, ../scss/moduls/_components.scss */
+#lineB {
+  fill: #e3e5ea;
+  stroke: #2B2B2B;
+  stroke-width: 2px;
+  width: 8px;
+  height: 21px;
+}
+
+/* line 371, ../scss/moduls/_components.scss */
+line {
+  fill: white;
+  stroke: white;
+  stroke-width: 3px;
+}
+
+/* line 377, ../scss/moduls/_components.scss */
+#comp-win {
+  fill: white;
+  stroke: white;
+  stroke-width: 1px;
+  width: 8px;
+  height: 10px;
+}
+
 /*_sections.scss*/
 /* line 3, ../scss/moduls/_sections.scss */
 section {

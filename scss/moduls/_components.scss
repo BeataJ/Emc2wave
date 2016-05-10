@@ -269,3 +269,115 @@
    width: 29px;
    height: 6px;
 }
+
+#MSB {
+   fill: $MSB;
+   stroke: $MSB;
+   stroke-width: 1px;
+   width: 13px;
+   height: 25px;
+}
+
+#MSC {
+  fill: $MSC;
+  stroke: $MSC;
+  stroke-width: 1px;
+  width: 29px;
+  height: 8px;
+}
+
+#TSA {
+      fill: $TSA;
+      stroke: $TSA;
+      stroke-width: 1px;
+      width: 75px;
+      height: 20px;
+}
+
+#TSB{
+    fill:$MSA;
+    stroke: $MSA;
+    stroke-width: 1px;
+    width: 20px;
+    height: 50px;
+}
+
+#TSC {
+   fill: $footer-color;
+   stroke: $footer-color;
+   stroke-width: 1px;
+   width: 20px;
+   height: 50px;
+}
+
+#TSD {
+   fill:$robot-table;
+   stroke:$robot-table;
+   stroke-width: 1px;
+   width: 20px;
+   height: 50px;
+}
+
+#TSE {
+   fill:$SA;
+   stroke:$SA;
+   stroke-width: 1px;
+   width: 75px;
+   height: 15px;
+}
+
+/*--------- end web-----*/
+
+/*---server----*/
+
+ellipse {
+    fill: $robot-table2;
+    stroke:$robot-table2;
+    stroke-width: 1px;
+}
+
+#copmA, #copmB, #copmC {
+    fill: $database-line;
+    stroke: #2B2B2B;
+    stroke-width: 2px;
+    width: 50px;
+    height: 100px;
+}
+
+#lineA {
+    fill:$th-color;
+    stroke: #2B2B2B;
+    stroke-width: 2px;
+    width: 8px;
+    height: 35px;
+}
+
+#lineD {
+    fill:$th-color;
+    stroke: #2B2B2B;
+    stroke-width: 2px;
+    width: 210px;
+    height: 8px
+}
+
+#lineB {
+    fill:$th-color;
+    stroke: #2B2B2B;
+    stroke-width: 2px;
+    width: 8px;
+    height: 21px;
+}
+
+line {
+    fill: $primary-color;
+    stroke: $primary-color;
+    stroke-width: 3px;
+}
+
+#comp-win {
+    fill: $primary-color;
+    stroke: $primary-color;
+    stroke-width: 1px;
+    width: 8px;
+    height: 10px;
+}
