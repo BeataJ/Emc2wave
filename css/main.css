@@ -715,6 +715,43 @@ line {
   height: 10px;
 }
 
+/*------end server-------*/
+/*----network--------*/
+/* line 389, ../scss/moduls/_components.scss */
+#circle-big {
+  fill: #f2c779;
+  stroke: #ffffee;
+  stroke-width: 3px;
+}
+
+/* line 395, ../scss/moduls/_components.scss */
+#circle-bigA {
+  fill: none;
+  stroke: #ffffee;
+  stroke-width: 3px;
+}
+
+/* line 401, ../scss/moduls/_components.scss */
+#circleA, #circleB, #circleC, #circleE, #circleD, #circleWr {
+  fill: #f2c779;
+  stroke: #ffffee;
+  stroke-width: 3px;
+}
+
+/* line 408, ../scss/moduls/_components.scss */
+#EWa1, #EWa2, #EWa3, #EWa4, #EWa5, #EWa6 {
+  fill: #ffffee;
+  stroke: #ffffee;
+  stroke-width: 1px;
+}
+
+/* line 414, ../scss/moduls/_components.scss */
+#LA, #LB, #LC, #LD, #LE {
+  fill: #ffffee;
+  stroke: #ffffee;
+  stroke-width: 4px;
+}
+
 /*_sections.scss*/
 /* line 3, ../scss/moduls/_sections.scss */
 section {

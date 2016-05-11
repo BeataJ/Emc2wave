@@ -381,3 +381,38 @@ line {
     width: 8px;
     height: 10px;
 }
+
+/*------end server-------*/
+
+/*----network--------*/
+
+#circle-big {
+    fill: $robot-table;
+    stroke: $lamp-bulb;
+    stroke-width: 3px;
+}
+
+#circle-bigA {
+   fill: none;
+   stroke: $lamp-bulb;
+   stroke-width: 3px;
+}
+
+#circleA, #circleB, #circleC, #circleE, #circleD, #circleWr{
+    fill: $robot-table;
+    stroke: $lamp-bulb;
+    stroke-width: 3px;
+}
+
+
+#EWa1, #EWa2, #EWa3, #EWa4, #EWa5, #EWa6{
+    fill:$lamp-bulb;
+    stroke: $lamp-bulb;
+    stroke-width: 1px;
+}
+
+#LA, #LB, #LC, #LD, #LE {
+  fill:$lamp-bulb;
+  stroke: $lamp-bulb;
+  stroke-width: 4px
+}
