@@ -76,7 +76,9 @@
            <div class="container">
               <div class="row">
                  <div class="col-lg-12">
-                    <svg class="img-responsive robot" viewbox="0 0 300 300" height="300" width="300" version="1.1" xmlns="http://www.w3.org/TR/SVG">
+                    <svg viewbox="0 0 300 300" height="300" width="300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                     <rect />
+
                      <g id="head">
                         <rect x="100" y="50" id="robot-head"/>
                         <rect x="123" y="35" id="robot-cap"/>
@@ -135,7 +137,8 @@
                         <circle cx="115" cy="155" r="7" id="button1"/>
                         <circle cx="140" cy="155" r="7" id="button2"/>
                         <circle cx="165" cy="155" r="7" id="button3"/>
-                     </svg>
+                      </svg>
+
                     <div class="intro-text">
                        <span class="welcome">Welcome!</span>
                         <div>
@@ -159,7 +162,8 @@
 
             <div class="row">
                 <div class="col-sm-6">
-                    <svg viewbox="0 0 300 150" height="150" width="300" version="1.1" xmlns="http://www.w3.org/TR/SVG">
+                    <svg viewbox="0 0 400 250" height="250" width="400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                       <g transform="translate(48,100)">
                         <line x1="150" y1="25" x2="150" y2="50" id="top-line"/>
                         <line x1="30" y1="50" x2="270" y2="50" id="line"/>
                         <polygon points="140,25 150,10 160,25" id="arrow"/>
@@ -167,6 +171,15 @@
                         <rect x="100" y="75" id="stripA"/>
                         <rect x="100" y="95" id="stripB"/>
                         <rect x="100" y="115" id="stripC"/>
+                       </g>
+                       <rect x="90" y="31" rx="4" ry="4" id="monitor"/>
+                       <line x1="90" y1="80" x2="120" y2="50" id="F1" />
+                       <line x1="120" y1="50" x2="160" y2="85" id="F1" />
+                       <line x1="160" y1="85" x2="190" y2="55" id="F1" />
+                       <line x1="190" y1="55" x2="220" y2="83" id="F1" />
+                       <line x1="220" y1="83" x2="250" y2="50" id="F1" />
+                       <line x1="250" y1="50" x2="270" y2="87" id="F1" />
+                       <line x1="270" y1="87" x2="310" y2="49" id="F1" />
                     </svg>
                 </div>
                 <div class="col-sm-6">
@@ -361,7 +374,32 @@
 
                <div class="row">
                  <div class="col-sm-6">
-
+                   <svg viewbox="0 0 400 250" height="250" width="400" version="1.1" xmlns="http://www.w3.org/TR/SVG">
+                      <!--man-->
+                       <polygon  points="80,75 90,60 99,100" id="pA"/>
+                       <rect x="20" y="25" rx="10" ry="10" id="speechM"/>
+                       <circle cx="125" cy="125" r="20" id="headM"/>
+                       <circle cx="125" cy="210" r="25" id="bodyMdown" />
+                       <rect x="100" y="160" id="bodyM" />
+                       <line x1="105" y1="163" x2="80" y2="180" id="AM1"/>
+                       <line x1="83" y1="180" x2="63" y2="163" id="AM1"/>
+                       <line x1="64" y1="60" x2="64" y2="240" id="stickM"/>
+                       <ellipse cx="64" cy="159" rx="6" ry="10" id="heandM1"/>
+                       <line x1="148" y1="165" x2="170" y2="208" id="AM2"/>
+                       <ellipse cx="170" cy="210" rx="6" ry="10" id="heandM2"/>
+                       <!-- woman-->
+                       <polygon  points="270,94 280,55 282,84" id="pB"/>
+                       <rect x="280" y="25" rx="10" ry="10" id="speechW"/>
+                       <circle cx="225" cy="125" r="20" id="headW"/>
+                       <circle cx="225" cy="210" r="25" id="bodyWdown" />
+                       <rect x="200" y="160" id="bodyW" />
+                       <line x1="248" y1="165" x2="275" y2="180" id="AW1"/>
+                       <line x1="273" y1="180" x2="300" y2="163" id="AW1"/>
+                       <line x1="300" y1="60" x2="300" y2="240" id="stickW"/>
+                       <ellipse cx="300" cy="159" rx="6" ry="10" id="heandW1"/>
+                       <line x1="203" y1="165" x2="175" y2="208" id="AW2"/>
+                       <ellipse cx="175" cy="210" rx="6" ry="10" id="heandW1"/>
+                   </svg>
                  </div>
                  <div class="col-sm-6">
 

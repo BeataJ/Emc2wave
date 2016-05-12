@@ -150,6 +150,19 @@
     stroke-width: 1px;
 }
 
+#monitor {
+    width: 220px;
+    height: 70px;
+    fill:$primary-color;
+    stroke: $database-line;
+    stroke-width: 4px;
+}
+
+#F1 {
+    fill: $base-color;
+    stroke: $base-color;
+    stroke-width: 3px;
+}
 /*----end database-------------*
 
 /*-----web-----------*/
@@ -416,3 +429,111 @@ line {
   stroke: $lamp-bulb;
   stroke-width: 4px
 }
+/*--------end network------------*/
+
+/*----About-----*/
+
+#speechM {
+    fill:$base-color;
+    stroke: $base-color;
+    stroke-width:1px;
+    width: 70px;
+    height: 60px;
+}
+
+#headM {
+    fill: $base-color;
+    stroke: $base-color;
+    stroke-width: 1px;
+}
+
+#bodyM {
+    fill:$base-color;
+    stroke: $base-color;
+    stroke-width:1px;
+    width: 50px;
+    height: 50px;
+}
+
+#bodyMdown {
+   fill: $base-color;
+   stroke: $base-color;
+   stroke-width: 1px;
+}
+
+#pA {
+  fill: $base-color;
+  stroke: $base-color;
+  stroke-width: 1px;
+}
+
+#AM1,#AM2 {
+  fill: $base-color;
+  stroke: $base-color;
+  stroke-width: 8px;
+}
+
+#heandM1, #heandM2 {
+  fill: $base-color;
+  stroke: $base-color;
+  stroke-width: 1px;
+}
+
+#stickM {
+  fill: $base-color;
+  stroke: $base-color;
+  stroke-width: 3px;
+}
+
+#headW {
+   fill:$robot-color;
+   stroke:$robot-color;
+   stroke-width: 1px;
+}
+
+#bodyWdown {
+  fill:$robot-color;
+  stroke:$robot-color;
+  stroke-width: 1px;
+}
+
+#bodyW {
+   fill:$robot-color;
+   stroke:$robot-color;
+   stroke-width:1px;
+   width: 50px;
+   height: 50px;
+}
+
+#speechW {
+  fill:$robot-color;
+  stroke:$robot-color;
+  stroke-width:1px;
+  width: 70px;
+  height: 60px;
+}
+
+#AW1, #AW2 {
+  fill:$robot-color;
+  stroke:$robot-color;
+  stroke-width:8px;
+}
+
+#heandW1 {
+  fill: $robot-color;
+  stroke: $robot-color;
+  stroke-width: 1px;
+}
+
+#stickW {
+  fill:$robot-color;
+  stroke:$robot-color;
+  stroke-width: 3px;
+}
+
+#pB {
+  fill: $robot-color;
+  stroke:$robot-color;
+  stroke-width: 1px;
+}
+/*------end about----*/
