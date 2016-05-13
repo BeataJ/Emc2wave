@@ -288,6 +288,201 @@ body a.active {
 }
 
 /*-----end robot animations*/
+/*---data----*/
+@keyframes strips {
+  /* line 120, ../scss/moduls/_animations.scss */
+  0% {
+    fill: #8899aa;
+  }
+
+  /* line 121, ../scss/moduls/_animations.scss */
+  25% {
+    fill: #ccd8ff;
+  }
+
+  /* line 122, ../scss/moduls/_animations.scss */
+  50% {
+    fill: white;
+  }
+
+  /* line 123, ../scss/moduls/_animations.scss */
+  75% {
+    fill: #ffffee;
+  }
+
+  /* line 124, ../scss/moduls/_animations.scss */
+  100% {
+    fill: #e3e5ea;
+  }
+}
+
+/* line 127, ../scss/moduls/_animations.scss */
+#stripA {
+  animation: strips 2s ease-in-out infinite;
+}
+
+/* line 131, ../scss/moduls/_animations.scss */
+#stripB {
+  animation: strips 3s ease-in-out infinite 1s;
+}
+
+/* line 135, ../scss/moduls/_animations.scss */
+#stripC {
+  animation: strips 1s ease-in-out infinite;
+}
+
+@keyframes fun-up-down {
+  /* line 140, ../scss/moduls/_animations.scss */
+  0% {
+    transform: translateY(0px);
+  }
+
+  /* line 141, ../scss/moduls/_animations.scss */
+  25% {
+    transform: translateY(5px);
+  }
+
+  /* line 142, ../scss/moduls/_animations.scss */
+  50% {
+    transform: translateY(0px);
+  }
+
+  /* line 143, ../scss/moduls/_animations.scss */
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+/* line 146, ../scss/moduls/_animations.scss */
+#F1 {
+  animation: fun-up-down 1s ease infinite;
+}
+
+/*-----end data-------*/
+/*---web------*/
+@keyframes lamp-rot {
+  /* line 155, ../scss/moduls/_animations.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 156, ../scss/moduls/_animations.scss */
+  25% {
+    transform: rotate(360deg);
+  }
+
+  /* line 157, ../scss/moduls/_animations.scss */
+  50% {
+    transform: rotate(0deg);
+  }
+
+  /* line 158, ../scss/moduls/_animations.scss */
+  75% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 161, ../scss/moduls/_animations.scss */
+#lamp-head {
+  transform-origin: 68px 103px;
+  animation: lamp-rot 4s ease infinite;
+}
+
+@keyframes bulb {
+  /* line 167, ../scss/moduls/_animations.scss */
+  0% {
+    transform: scale(1);
+  }
+
+  /* line 168, ../scss/moduls/_animations.scss */
+  100% {
+    transform: scale(1.2);
+    fill: #f2c779;
+  }
+}
+
+/* line 171, ../scss/moduls/_animations.scss */
+#lamp-bulb {
+  transform-origin: center;
+  animation: bulb .5s linear infinite 4s;
+}
+
+/*-------end web---------*/
+/*-------servers-----------*/
+@keyframes servers {
+  /* line 180, ../scss/moduls/_animations.scss */
+  0% {
+    transform: translateY(0px);
+  }
+
+  /* line 181, ../scss/moduls/_animations.scss */
+  25% {
+    transform: translateY(-20px);
+  }
+
+  /* line 182, ../scss/moduls/_animations.scss */
+  50% {
+    transform: translateY(0px);
+  }
+
+  /* line 183, ../scss/moduls/_animations.scss */
+  75% {
+    transform: translateY(-20px);
+  }
+
+  /* line 184, ../scss/moduls/_animations.scss */
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* line 187, ../scss/moduls/_animations.scss */
+#comA {
+  animation: servers 1s ease infinite;
+}
+
+/* line 191, ../scss/moduls/_animations.scss */
+#comB {
+  animation: servers 1s ease infinite 1s;
+}
+
+/* line 195, ../scss/moduls/_animations.scss */
+#comC {
+  animation: servers 1s ease infinite 2s;
+}
+
+@keyframes cloud {
+  /* line 200, ../scss/moduls/_animations.scss */
+  0% {
+    transform: translateX(0px);
+  }
+
+  /* line 201, ../scss/moduls/_animations.scss */
+  25% {
+    transform: translateX(30px);
+  }
+
+  /* line 202, ../scss/moduls/_animations.scss */
+  50% {
+    transform: translateX(0px);
+  }
+
+  /* line 203, ../scss/moduls/_animations.scss */
+  75% {
+    transform: translateX(-30px);
+  }
+
+  /* line 204, ../scss/moduls/_animations.scss */
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+/* line 207, ../scss/moduls/_animations.scss */
+#comp-cloud {
+  animation: cloud 5s linear infinite 3s;
+}
+
 /*components*/
 /*--------------------------
     Robot-------  */

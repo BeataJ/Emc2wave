@@ -114,3 +114,96 @@
 }
 
 /*-----end robot animations*/
+
+/*---data----*/
+@keyframes strips {
+    0% {fill: $data-strip;}
+    25% {fill: $second-color;}
+    50% {fill: $primary-color;}
+    75% {fill: $lamp-bulb;}
+    100% {fill: $th-color;}
+}
+
+#stripA {
+    animation: strips 2s ease-in-out infinite;
+}
+
+#stripB {
+    animation: strips 3s ease-in-out infinite 1s;
+}
+
+#stripC {
+    animation: strips 1s ease-in-out infinite;
+}
+
+@keyframes fun-up-down {
+    0% {transform: translateY(0px);}
+    25% {transform: translateY(5px);}
+    50% {transform: translateY(0px);}
+    100% {transform: translateY(-5px);}
+}
+
+#F1{
+    animation: fun-up-down 1s ease infinite;
+}
+
+/*-----end data-------*/
+
+/*---web------*/
+
+@keyframes lamp-rot {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(360deg);}
+  50% {transform: rotate(0deg);}
+  75% {transform: rotate(360deg);}
+}
+
+#lamp-head {
+    transform-origin: 68px 103px;
+    animation: lamp-rot 4s ease infinite;
+}
+
+@keyframes bulb {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.2); fill:$robot-table;}
+}
+
+#lamp-bulb {
+    transform-origin: center;
+    animation: bulb .5s linear infinite 4s;
+}
+/*-------end web---------*/
+
+
+/*-------servers-----------*/
+@keyframes servers {
+    0% {transform: translateY(0px);}
+    25% {transform: translateY(-20px);}
+    50% {transform: translateY(0px);}
+    75% {transform: translateY(-20px);}
+    100% {transform: translateY(0px);}
+}
+
+#comA {
+    animation: servers 1s ease infinite;
+}
+
+#comB {
+    animation: servers 1s ease infinite 1s;
+}
+
+#comC {
+   animation: servers 1s ease infinite 2s;
+}
+
+@keyframes cloud {
+    0% {transform: translateX(0px);}
+    25% {transform: translateX(30px);}
+    50% {transform: translateX(0px);}
+    75% {transform: translateX(-30px);}
+    100% {transform: translateX(0px);}
+}
+
+#comp-cloud {
+    animation: cloud 5s linear infinite 3s;
+}

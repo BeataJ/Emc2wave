@@ -211,8 +211,11 @@
                        <circle cx="67" cy="28" r="8" id="lamp-join"/>
                       </g>
 
-                      <circle cx="83" cy="119" r="12" id="lamp-bulb" />
-                      <rect x="25" y="103" id="lampA" transform="rotate(-40 25 73)" />
+                      <g id="lamp-head">
+                        <circle cx="83" cy="119" r="12" id="lamp-bulb" />
+                        <rect x="25" y="103" id="lampA" transform="rotate(-40 25 73)" />
+                      </g>
+
                       <polygon points="200,225 235,160 270,225" id="comp-leg"/>
                       <rect x="150" y="50" rx="20" ry="20" id="computer" />
                       <rect x="170" y="70" id="SA" />
@@ -253,14 +256,14 @@
                <div class="row">
                  <div class="col-sm-6">
                     <svg viewbox="0 0 400 250" height="250" width="400" version="1.1" xmlns="http://www.w3.org/TR/SVG">
-                       <g>
+                       <g id="comp-cloud">
                         <ellipse cx="200" cy="120" rx="170" ry="50" />
                         <ellipse cx="150" cy="70" rx="90" ry="35" />
                         <ellipse cx="250" cy="75" rx="70" ry="40" />
                         </g>
 
-                        <g>
                         <rect x="90" y="193" rx="3" ry="3" id="lineA"/>
+                        <g id="comA">
                         <rect x="70" y="90" rx="10" ry="10" id="copmA"/>
                         <line x1="73" y1="105" x2="113" y2="105"/>
                         <line x1="73" y1="118" x2="113" y2="118"/>
@@ -270,8 +273,8 @@
                         <rect x="105" y="170" id="comp-win"/>
                         </g>
 
-                        <g>
                         <rect x="190" y="208" rx="3" ry="3" id="lineB"/>
+                        <g id="comB">
                         <rect x="170" y="105" rx="10" ry="10" id="copmB"/>
                         <line x1="173" y1="120" x2="213" y2="120"/>
                         <line x1="173" y1="133" x2="213" y2="133"/>
@@ -281,8 +284,8 @@
                         <rect x="205" y="190" id="comp-win"/>
                         </g>
 
-                        <g>
                         <rect x="289" y="193" rx="3" ry="3" id="lineA"/>
+                        <g id="comC">
                         <rect x="270" y="90" rx="10" ry="10" id="copmC"/>
                         <line x1="273" y1="105" x2="313" y2="105"/>
                         <line x1="273" y1="118" x2="313" y2="118"/>
