@@ -178,22 +178,15 @@
 /*-------servers-----------*/
 @keyframes servers {
     0% {transform: translateY(0px);}
-    25% {transform: translateY(-20px);}
-    50% {transform: translateY(0px);}
-    75% {transform: translateY(-20px);}
+    15% {transform: translateY(-10px);}
+    20% {transform: translateY(-5px);}
+    30% {transform: translateY(-10px);}
+    75% {transform: translateY(-5px);}
     100% {transform: translateY(0px);}
 }
 
-#comA {
+#comA,#comB, #comC{
     animation: servers 1s ease infinite;
-}
-
-#comB {
-    animation: servers 1s ease infinite 1s;
-}
-
-#comC {
-   animation: servers 1s ease infinite 2s;
 }
 
 @keyframes cloud {
@@ -206,4 +199,78 @@
 
 #comp-cloud {
     animation: cloud 5s linear infinite 3s;
+}
+/*-----end servers-----------*/
+
+/*-----network------*/
+
+@keyframes root {
+    0% {fill: $robot-table; stroke: $lamp-bulb;}
+    50% {fill:$lamp-bulb; stroke: $robot-table; transform: scale(1.5)}
+    100% {fill: $robot-table; stroke: $lamp-bulb;}
+}
+
+#circle-big {
+    transform-origin: center;
+    animation: root 5s ease infinite;
+}
+
+@keyframes rootA {
+    0% {fill: none; stroke: $lamp-bulb;}
+    50% {fill:none; stroke: $robot-table; transform: scale(1.5)}
+    100% {fill: none; stroke: $lamp-bulb;}
+}
+
+#circle-bigA {
+    transform-origin: center;
+    animation: rootA 5s ease infinite;
+}
+
+@keyframes net {
+   0% {fill: $robot-table; stroke: $lamp-bulb;}
+   100% {fill:$lamp-bulb; stroke: $robot-table;}
+}
+
+#circleA, #circleB, #circleC, #circleE, #circleD, #circleWr {
+   animation: net 5s ease infinite;
+}
+
+@keyframes waves {
+    0% {fill:$lamp-bulb;}
+    100% {fill: $robot-table;}
+}
+
+#EWa1, #EWa2 {
+    animation: waves 3s ease-in-out infinite;
+}
+
+#EWa3, #EWa4 {
+    animation: waves 4s ease-in-out infinite;
+}
+
+#EWa5, #EWa6 {
+   animation: waves 5s ease-in-out infinite;
+}
+
+/*----------end network----------*/
+
+/*----about-----*/
+
+@keyframes speechM {
+   0% {transform: rotate(2deg);}
+  100% {transform: rotate(-2deg);}
+}
+
+#move-speechM {
+    animation: speechM .75s ease infinite;
+}
+
+@keyframes tik-tok {
+    0% {transform: translate(5px);}
+
+    100% {transform:translateY(5px);}
+}
+
+#headW {
+    animation:tik-tok 1.5s ease infinite;
 }

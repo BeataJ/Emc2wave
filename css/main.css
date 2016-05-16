@@ -416,71 +416,204 @@ body a.active {
   }
 
   /* line 181, ../scss/moduls/_animations.scss */
-  25% {
-    transform: translateY(-20px);
+  15% {
+    transform: translateY(-10px);
   }
 
   /* line 182, ../scss/moduls/_animations.scss */
-  50% {
-    transform: translateY(0px);
+  20% {
+    transform: translateY(-5px);
   }
 
   /* line 183, ../scss/moduls/_animations.scss */
-  75% {
-    transform: translateY(-20px);
+  30% {
+    transform: translateY(-10px);
   }
 
   /* line 184, ../scss/moduls/_animations.scss */
+  75% {
+    transform: translateY(-5px);
+  }
+
+  /* line 185, ../scss/moduls/_animations.scss */
   100% {
     transform: translateY(0px);
   }
 }
 
-/* line 187, ../scss/moduls/_animations.scss */
-#comA {
+/* line 188, ../scss/moduls/_animations.scss */
+#comA, #comB, #comC {
   animation: servers 1s ease infinite;
 }
 
-/* line 191, ../scss/moduls/_animations.scss */
-#comB {
-  animation: servers 1s ease infinite 1s;
-}
-
-/* line 195, ../scss/moduls/_animations.scss */
-#comC {
-  animation: servers 1s ease infinite 2s;
-}
-
 @keyframes cloud {
-  /* line 200, ../scss/moduls/_animations.scss */
+  /* line 193, ../scss/moduls/_animations.scss */
   0% {
     transform: translateX(0px);
   }
 
-  /* line 201, ../scss/moduls/_animations.scss */
+  /* line 194, ../scss/moduls/_animations.scss */
   25% {
     transform: translateX(30px);
   }
 
-  /* line 202, ../scss/moduls/_animations.scss */
+  /* line 195, ../scss/moduls/_animations.scss */
   50% {
     transform: translateX(0px);
   }
 
-  /* line 203, ../scss/moduls/_animations.scss */
+  /* line 196, ../scss/moduls/_animations.scss */
   75% {
     transform: translateX(-30px);
   }
 
-  /* line 204, ../scss/moduls/_animations.scss */
+  /* line 197, ../scss/moduls/_animations.scss */
   100% {
     transform: translateX(0px);
   }
 }
 
-/* line 207, ../scss/moduls/_animations.scss */
+/* line 200, ../scss/moduls/_animations.scss */
 #comp-cloud {
   animation: cloud 5s linear infinite 3s;
+}
+
+/*-----end servers-----------*/
+/*-----network------*/
+@keyframes root {
+  /* line 208, ../scss/moduls/_animations.scss */
+  0% {
+    fill: #f2c779;
+    stroke: #ffffee;
+  }
+
+  /* line 209, ../scss/moduls/_animations.scss */
+  50% {
+    fill: #ffffee;
+    stroke: #f2c779;
+    transform: scale(1.5);
+  }
+
+  /* line 210, ../scss/moduls/_animations.scss */
+  100% {
+    fill: #f2c779;
+    stroke: #ffffee;
+  }
+}
+
+/* line 213, ../scss/moduls/_animations.scss */
+#circle-big {
+  transform-origin: center;
+  animation: root 5s ease infinite;
+}
+
+@keyframes rootA {
+  /* line 219, ../scss/moduls/_animations.scss */
+  0% {
+    fill: none;
+    stroke: #ffffee;
+  }
+
+  /* line 220, ../scss/moduls/_animations.scss */
+  50% {
+    fill: none;
+    stroke: #f2c779;
+    transform: scale(1.5);
+  }
+
+  /* line 221, ../scss/moduls/_animations.scss */
+  100% {
+    fill: none;
+    stroke: #ffffee;
+  }
+}
+
+/* line 224, ../scss/moduls/_animations.scss */
+#circle-bigA {
+  transform-origin: center;
+  animation: rootA 5s ease infinite;
+}
+
+@keyframes net {
+  /* line 230, ../scss/moduls/_animations.scss */
+  0% {
+    fill: #f2c779;
+    stroke: #ffffee;
+  }
+
+  /* line 231, ../scss/moduls/_animations.scss */
+  100% {
+    fill: #ffffee;
+    stroke: #f2c779;
+  }
+}
+
+/* line 234, ../scss/moduls/_animations.scss */
+#circleA, #circleB, #circleC, #circleE, #circleD, #circleWr {
+  animation: net 5s ease infinite;
+}
+
+@keyframes waves {
+  /* line 239, ../scss/moduls/_animations.scss */
+  0% {
+    fill: #ffffee;
+  }
+
+  /* line 240, ../scss/moduls/_animations.scss */
+  100% {
+    fill: #f2c779;
+  }
+}
+
+/* line 243, ../scss/moduls/_animations.scss */
+#EWa1, #EWa2 {
+  animation: waves 3s ease-in-out infinite;
+}
+
+/* line 247, ../scss/moduls/_animations.scss */
+#EWa3, #EWa4 {
+  animation: waves 4s ease-in-out infinite;
+}
+
+/* line 251, ../scss/moduls/_animations.scss */
+#EWa5, #EWa6 {
+  animation: waves 5s ease-in-out infinite;
+}
+
+/*----------end network----------*/
+/*----about-----*/
+@keyframes speechM {
+  /* line 260, ../scss/moduls/_animations.scss */
+  0% {
+    transform: rotate(2deg);
+  }
+
+  /* line 261, ../scss/moduls/_animations.scss */
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+
+/* line 264, ../scss/moduls/_animations.scss */
+#move-speechM {
+  animation: speechM .75s ease infinite;
+}
+
+@keyframes tik-tok {
+  /* line 269, ../scss/moduls/_animations.scss */
+  0% {
+    transform: translate(5px);
+  }
+
+  /* line 271, ../scss/moduls/_animations.scss */
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+/* line 274, ../scss/moduls/_animations.scss */
+#headW {
+  animation: tik-tok 1.5s ease infinite;
 }
 
 /*components*/
