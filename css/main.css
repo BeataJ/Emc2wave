@@ -602,18 +602,28 @@ body a.active {
 @keyframes tik-tok {
   /* line 269, ../scss/moduls/_animations.scss */
   0% {
-    transform: translate(5px);
+    transform: translateY(5px);
+  }
+
+  /* line 270, ../scss/moduls/_animations.scss */
+  25% {
+    transform: translateY(3px);
   }
 
   /* line 271, ../scss/moduls/_animations.scss */
+  50% {
+    transform: translateY(1px);
+  }
+
+  /* line 272, ../scss/moduls/_animations.scss */
   100% {
     transform: translateY(5px);
   }
 }
 
-/* line 274, ../scss/moduls/_animations.scss */
+/* line 275, ../scss/moduls/_animations.scss */
 #headW {
-  animation: tik-tok 1.5s ease infinite;
+  animation: tik-tok 1.3s ease infinite;
 }
 
 /*components*/
