@@ -5,7 +5,7 @@ Vertion: 0.01*/
 /*_variables.scss*/
 /*Fonts*/
 /*Background Color*/
-/*Complementary Color sheme -default*/
+/*Complementary Color sheme 150 split*/
 /* line 1, ../scss/base/_normalize.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu", sans-serif;
@@ -15,32 +15,38 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 9, ../scss/base/_normalize.scss */
 .glyphicon.glyphicon-fire {
-  color: #7f6c3f;
+  color: #993322;
   font-size: 40px;
   margin: 20px auto 30px auto;
 }
 
 /* line 15, ../scss/base/_normalize.scss */
-.iweb {
-  margin-left: 20px;
+.s-data, .s-web, .s-networks, .s-server, .s-about {
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 /*_base.scss*/
 /* line 3, ../scss/base/_base.scss */
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 2em;
   color: #002266;
   overflow-x: hidden;
 }
-/* line 13, ../scss/base/_base.scss */
+/* line 14, ../scss/base/_base.scss */
 body a,
 body a:hover,
 body a:focus,
 body a:active,
 body a.active {
-  color: #99b2ff !important;
+  color: #99b9ff !important;
   outline: none;
+}
+
+/* line 23, ../scss/base/_base.scss */
+svg {
+  width: 100%;
 }
 
 /*Moduls - indivdual site components*/
@@ -50,12 +56,12 @@ body a.active {
 @keyframes table-color {
   /* line 8, ../scss/moduls/_animations.scss */
   0% {
-    fill: #f2c779;
+    fill: #0049e5;
   }
 
   /* line 9, ../scss/moduls/_animations.scss */
   100% {
-    fill: #99bcff;
+    fill: #ffffee;
   }
 }
 
@@ -67,7 +73,7 @@ body a.active {
 @keyframes button-color {
   /* line 17, ../scss/moduls/_animations.scss */
   0% {
-    fill: #ddddbb;
+    fill: #f28f79;
   }
 
   /* line 18, ../scss/moduls/_animations.scss */
@@ -292,12 +298,12 @@ body a.active {
 @keyframes strips {
   /* line 120, ../scss/moduls/_animations.scss */
   0% {
-    fill: #8899aa;
+    fill: #f2f2f2;
   }
 
   /* line 121, ../scss/moduls/_animations.scss */
   25% {
-    fill: #ccd8ff;
+    fill: #aaccdd;
   }
 
   /* line 122, ../scss/moduls/_animations.scss */
@@ -312,7 +318,7 @@ body a.active {
 
   /* line 124, ../scss/moduls/_animations.scss */
   100% {
-    fill: #e3e5ea;
+    fill: #d8b5ad;
   }
 }
 
@@ -397,7 +403,7 @@ body a.active {
   /* line 168, ../scss/moduls/_animations.scss */
   100% {
     transform: scale(1.2);
-    fill: #f2c779;
+    fill: #0049e5;
   }
 }
 
@@ -483,20 +489,20 @@ body a.active {
 @keyframes root {
   /* line 208, ../scss/moduls/_animations.scss */
   0% {
-    fill: #f2c779;
+    fill: #0049e5;
     stroke: #ffffee;
   }
 
   /* line 209, ../scss/moduls/_animations.scss */
   50% {
     fill: #ffffee;
-    stroke: #f2c779;
+    stroke: #0049e5;
     transform: scale(1.5);
   }
 
   /* line 210, ../scss/moduls/_animations.scss */
   100% {
-    fill: #f2c779;
+    fill: #0049e5;
     stroke: #ffffee;
   }
 }
@@ -517,7 +523,7 @@ body a.active {
   /* line 220, ../scss/moduls/_animations.scss */
   50% {
     fill: none;
-    stroke: #f2c779;
+    stroke: #0049e5;
     transform: scale(1.5);
   }
 
@@ -537,14 +543,14 @@ body a.active {
 @keyframes net {
   /* line 230, ../scss/moduls/_animations.scss */
   0% {
-    fill: #f2c779;
+    fill: #0049e5;
     stroke: #ffffee;
   }
 
   /* line 231, ../scss/moduls/_animations.scss */
   100% {
     fill: #ffffee;
-    stroke: #f2c779;
+    stroke: #0049e5;
   }
 }
 
@@ -561,7 +567,7 @@ body a.active {
 
   /* line 240, ../scss/moduls/_animations.scss */
   100% {
-    fill: #f2c779;
+    fill: #0049e5;
   }
 }
 
@@ -633,22 +639,22 @@ body a.active {
 #robot-head {
   width: 70px;
   height: 70px;
-  fill: #997722;
-  stroke: #997722;
+  fill: #886611;
+  stroke: #886611;
 }
 
 /* line 13, ../scss/moduls/_components.scss */
 #robot-cap {
   width: 23px;
   height: 10px;
-  fill: #997722;
-  stroke: #997722;
+  fill: #886611;
+  stroke: #886611;
 }
 
 /* line 20, ../scss/moduls/_components.scss */
 #line-antennae1, #line-antennae2 {
-  fill: #997722;
-  stroke: #997722;
+  fill: #886611;
+  stroke: #886611;
   stroke-width: 3px;
 }
 
@@ -674,8 +680,8 @@ body a.active {
 
 /* line 43, ../scss/moduls/_components.scss */
 #eye11, #eye22 {
-  fill: #3d424c;
-  stroke: #3d424c;
+  fill: #0035a8;
+  stroke: #0035a8;
 }
 
 /* line 48, ../scss/moduls/_components.scss */
@@ -698,16 +704,16 @@ body a.active {
 #torso {
   width: 95px;
   height: 70px;
-  fill: #997722;
-  stroke: #997722;
+  fill: #886611;
+  stroke: #886611;
 }
 
 /* line 69, ../scss/moduls/_components.scss */
 #leg1, #leg2 {
   width: 20px;
   height: 60px;
-  fill: #997722;
-  stroke: #997722;
+  fill: #886611;
+  stroke: #886611;
 }
 
 /* line 76, ../scss/moduls/_components.scss */
@@ -730,8 +736,8 @@ body a.active {
 #arm1, #arm2 {
   width: 15px;
   height: 60px;
-  fill: #997722;
-  stroke: #997722;
+  fill: #886611;
+  stroke: #886611;
 }
 
 /* line 97, ../scss/moduls/_components.scss */
@@ -754,28 +760,28 @@ body a.active {
 #table {
   width: 75px;
   height: 30px;
-  fill: #f2c779;
-  stroke: #f2c779;
+  fill: #0049e5;
+  stroke: #0049e5;
 }
 
 /* line 118, ../scss/moduls/_components.scss */
 #button1, #button2, #button3 {
-  fill: #ddddbb;
-  stroke: #ddddbb;
+  fill: #f28f79;
+  stroke: #f28f79;
 }
 
 /*--end Robot ---------------*/
 /*------database--------------*/
 /* line 126, ../scss/moduls/_components.scss */
 #top-line, #line {
-  stroke: #3d424c;
+  stroke: #993322;
   stroke-width: 5px;
 }
 
 /* line 131, ../scss/moduls/_components.scss */
 #arrow {
-  fill: #3d424c;
-  stroke: #3d424c;
+  fill: #993322;
+  stroke: #993322;
   stroke-width: 1px;
 }
 
@@ -783,8 +789,8 @@ body a.active {
 #datab {
   width: 100px;
   height: 80px;
-  fill: #f2c779;
-  stroke: #3d424c;
+  fill: #0049e5;
+  stroke: #993322;
   stroke-width: 4px;
 }
 
@@ -792,8 +798,8 @@ body a.active {
 #stripA, #stripB, #stripC {
   width: 100px;
   height: 10px;
-  fill: #8899aa;
-  stroke: #8899aa;
+  fill: #f2f2f2;
+  stroke: #f2f2f2;
   stroke-width: 1px;
 }
 
@@ -802,7 +808,7 @@ body a.active {
   width: 220px;
   height: 70px;
   fill: white;
-  stroke: #3d424c;
+  stroke: #993322;
   stroke-width: 4px;
 }
 
@@ -860,7 +866,7 @@ body a.active {
 /* line 207, ../scss/moduls/_components.scss */
 #computer {
   fill: white;
-  stroke: #3d424c;
+  stroke: #993322;
   stroke-width: 10px;
   width: 170px;
   height: 130px;
@@ -868,7 +874,7 @@ body a.active {
 
 /* line 215, ../scss/moduls/_components.scss */
 #comp-leg {
-  fill: #3d424c;
+  fill: #993322;
 }
 
 /*end computer*/
@@ -876,7 +882,7 @@ body a.active {
 /* line 222, ../scss/moduls/_components.scss */
 #mobil {
   fill: white;
-  stroke: #3d424c;
+  stroke: #993322;
   stroke-width: 5px;
   width: 40px;
   height: 65px;
@@ -885,7 +891,7 @@ body a.active {
 /* line 230, ../scss/moduls/_components.scss */
 #tabloid {
   fill: white;
-  stroke: #3d424c;
+  stroke: #993322;
   stroke-width: 5px;
   width: 90px;
   height: 115px;
@@ -893,8 +899,8 @@ body a.active {
 
 /* line 238, ../scss/moduls/_components.scss */
 #SA {
-  fill: #d8caad;
-  stroke: #d8caad;
+  fill: #f28f79;
+  stroke: #f28f79;
   stroke-width: 1px;
   width: 30px;
   height: 11px;
@@ -902,8 +908,8 @@ body a.active {
 
 /* line 246, ../scss/moduls/_components.scss */
 #SB {
-  fill: #d8caad;
-  stroke: #d8caad;
+  fill: #f28f79;
+  stroke: #f28f79;
   stroke-width: 1px;
   width: 30px;
   height: 60px;
@@ -920,8 +926,8 @@ body a.active {
 
 /* line 262, ../scss/moduls/_components.scss */
 #SD {
-  fill: #ddddbb;
-  stroke: #ddddbb;
+  fill: #f28f79;
+  stroke: #f28f79;
   stroke-width: 1px;
   width: 90px;
   height: 60px;
@@ -929,8 +935,8 @@ body a.active {
 
 /* line 270, ../scss/moduls/_components.scss */
 #SE {
-  fill: #f2c779;
-  stroke: #f2c779;
+  fill: #0049e5;
+  stroke: #0049e5;
   stroke-width: 1px;
   width: 120px;
   height: 11px;
@@ -947,8 +953,8 @@ body a.active {
 
 /* line 286, ../scss/moduls/_components.scss */
 #MSB {
-  fill: #f2eada;
-  stroke: #f2eada;
+  fill: #f2deda;
+  stroke: #f2deda;
   stroke-width: 1px;
   width: 13px;
   height: 25px;
@@ -956,8 +962,8 @@ body a.active {
 
 /* line 294, ../scss/moduls/_components.scss */
 #MSC {
-  fill: #7f6c3f;
-  stroke: #7f6c3f;
+  fill: #886611;
+  stroke: #886611;
   stroke-width: 1px;
   width: 29px;
   height: 8px;
@@ -965,8 +971,8 @@ body a.active {
 
 /* line 302, ../scss/moduls/_components.scss */
 #TSA {
-  fill: #ddddbb;
-  stroke: #ddddbb;
+  fill: #d7d9dd;
+  stroke: #d7d9dd;
   stroke-width: 1px;
   width: 75px;
   height: 20px;
@@ -983,8 +989,8 @@ body a.active {
 
 /* line 318, ../scss/moduls/_components.scss */
 #TSC {
-  fill: #776655;
-  stroke: #776655;
+  fill: #3d424c;
+  stroke: #3d424c;
   stroke-width: 1px;
   width: 20px;
   height: 50px;
@@ -992,8 +998,8 @@ body a.active {
 
 /* line 326, ../scss/moduls/_components.scss */
 #TSD {
-  fill: #f2c779;
-  stroke: #f2c779;
+  fill: #0049e5;
+  stroke: #0049e5;
   stroke-width: 1px;
   width: 20px;
   height: 50px;
@@ -1001,8 +1007,8 @@ body a.active {
 
 /* line 334, ../scss/moduls/_components.scss */
 #TSE {
-  fill: #d8caad;
-  stroke: #d8caad;
+  fill: #f28f79;
+  stroke: #f28f79;
   stroke-width: 1px;
   width: 75px;
   height: 15px;
@@ -1012,14 +1018,14 @@ body a.active {
 /*---server----*/
 /* line 346, ../scss/moduls/_components.scss */
 ellipse {
-  fill: #99bcff;
-  stroke: #99bcff;
+  fill: #ffffee;
+  stroke: #ffffee;
   stroke-width: 1px;
 }
 
 /* line 352, ../scss/moduls/_components.scss */
 #copmA, #copmB, #copmC {
-  fill: #3d424c;
+  fill: #993322;
   stroke: #2B2B2B;
   stroke-width: 2px;
   width: 50px;
@@ -1028,7 +1034,7 @@ ellipse {
 
 /* line 360, ../scss/moduls/_components.scss */
 #lineA {
-  fill: #e3e5ea;
+  fill: #d8b5ad;
   stroke: #2B2B2B;
   stroke-width: 2px;
   width: 8px;
@@ -1037,7 +1043,7 @@ ellipse {
 
 /* line 368, ../scss/moduls/_components.scss */
 #lineD {
-  fill: #e3e5ea;
+  fill: #d8b5ad;
   stroke: #2B2B2B;
   stroke-width: 2px;
   width: 210px;
@@ -1046,7 +1052,7 @@ ellipse {
 
 /* line 376, ../scss/moduls/_components.scss */
 #lineB {
-  fill: #e3e5ea;
+  fill: #d8b5ad;
   stroke: #2B2B2B;
   stroke-width: 2px;
   width: 8px;
@@ -1073,7 +1079,7 @@ line {
 /*----network--------*/
 /* line 402, ../scss/moduls/_components.scss */
 #circle-big {
-  fill: #f2c779;
+  fill: #0049e5;
   stroke: #ffffee;
   stroke-width: 3px;
 }
@@ -1087,7 +1093,7 @@ line {
 
 /* line 414, ../scss/moduls/_components.scss */
 #circleA, #circleB, #circleC, #circleE, #circleD, #circleWr {
-  fill: #f2c779;
+  fill: #0049e5;
   stroke: #ffffee;
   stroke-width: 3px;
 }
@@ -1170,22 +1176,22 @@ line {
 
 /* line 488, ../scss/moduls/_components.scss */
 #headW {
-  fill: #997722;
-  stroke: #997722;
+  fill: #993322;
+  stroke: #993322;
   stroke-width: 1px;
 }
 
 /* line 494, ../scss/moduls/_components.scss */
 #bodyWdown {
-  fill: #997722;
-  stroke: #997722;
+  fill: #993322;
+  stroke: #993322;
   stroke-width: 1px;
 }
 
 /* line 500, ../scss/moduls/_components.scss */
 #bodyW {
-  fill: #997722;
-  stroke: #997722;
+  fill: #993322;
+  stroke: #993322;
   stroke-width: 1px;
   width: 50px;
   height: 50px;
@@ -1193,8 +1199,8 @@ line {
 
 /* line 508, ../scss/moduls/_components.scss */
 #speechW {
-  fill: #997722;
-  stroke: #997722;
+  fill: #993322;
+  stroke: #993322;
   stroke-width: 1px;
   width: 70px;
   height: 60px;
@@ -1202,29 +1208,29 @@ line {
 
 /* line 516, ../scss/moduls/_components.scss */
 #AW1, #AW2 {
-  fill: #997722;
-  stroke: #997722;
+  fill: #993322;
+  stroke: #993322;
   stroke-width: 8px;
 }
 
 /* line 522, ../scss/moduls/_components.scss */
 #heandW1 {
-  fill: #997722;
-  stroke: #997722;
+  fill: #993322;
+  stroke: #993322;
   stroke-width: 1px;
 }
 
 /* line 528, ../scss/moduls/_components.scss */
 #stickW {
-  fill: #997722;
-  stroke: #997722;
+  fill: #993322;
+  stroke: #993322;
   stroke-width: 3px;
 }
 
 /* line 534, ../scss/moduls/_components.scss */
 #pB {
-  fill: #997722;
-  stroke: #997722;
+  fill: #993322;
+  stroke: #993322;
   stroke-width: 1px;
 }
 
@@ -1233,21 +1239,44 @@ line {
 /* line 3, ../scss/moduls/_sections.scss */
 section {
   padding: 100px 0;
+  margin: auto;
 }
-/* line 6, ../scss/moduls/_sections.scss */
+/* line 7, ../scss/moduls/_sections.scss */
 section h2 {
   margin: 0;
   font-size: 3em;
 }
 
-/* line 12, ../scss/moduls/_sections.scss */
+/* line 14, ../scss/moduls/_sections.scss */
 #web, #network {
-  background-color: #ccd8ff;
+  background-color: #aaccdd;
+  color: #886611;
 }
 
-/* line 16, ../scss/moduls/_sections.scss */
-#data, #serwer, #about {
-  background-color: white;
+/* line 20, ../scss/moduls/_sections.scss */
+#data, #server, #about {
+  background-color: #bbdddd;
+  color: #3D424C;
+}
+
+/* line 26, ../scss/moduls/_sections.scss */
+#data .panelD1, #data .panelD2, #data .panelD3 {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+/* line 30, ../scss/moduls/_sections.scss */
+#data .panelD1, #data .panelD2, #data .panelD3 {
+  background: #FFFFEE;
+  border-bottom: solid 20px #117788;
+}
+/* line 36, ../scss/moduls/_sections.scss */
+#data .well {
+  background: #FFFFEE;
+  border-bottom: solid 20px #993322;
+}
+/* line 41, ../scss/moduls/_sections.scss */
+#data #pD {
+  text-align: center;
 }
 
 /*Layouts - Page layout style*/
@@ -1256,14 +1285,14 @@ section h2 {
 footer {
   padding: 25px 0;
   text-align: center;
-  background-color: #776655;
+  background-color: #3d424c;
 }
 
 /*header*/
 /* line 3, ../scss/layouts/_header.scss */
 header {
   text-align: center;
-  background: #e3e5ea;
+  background: #8899aa;
 }
 /* line 7, ../scss/layouts/_header.scss */
 header .container {
@@ -1271,22 +1300,29 @@ header .container {
   padding-bottom: 50px;
 }
 /* line 12, ../scss/layouts/_header.scss */
+header .jumbotron {
+  background: #d7d9dd;
+  border-bottom: solid 20px #3d424c;
+}
+/* line 17, ../scss/layouts/_header.scss */
 header svg {
   display: block;
   margin: 0 auto 20px;
 }
-/* line 17, ../scss/layouts/_header.scss */
+/* line 22, ../scss/layouts/_header.scss */
 header .intro-text .welcome {
   display: block;
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
+  color: #117788;
 }
-/* line 25, ../scss/layouts/_header.scss */
+/* line 31, ../scss/layouts/_header.scss */
 header .intro-text .make {
   font-size: 1.25em;
-  font-weight: 300;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /*mobile*/
@@ -1307,11 +1343,16 @@ header .intro-text .make {
   header .intro-text .make {
     font-size: 1.75em;
   }
+
+  /* line 19, ../scss/layouts/_mobile.scss */
+  section {
+    font-size: 1em;
+  }
 }
 /*----end header--------*/
 /*navbar*/
 @media (min-width: 768px) {
-  /* line 25, ../scss/layouts/_mobile.scss */
+  /* line 29, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
@@ -1319,7 +1360,7 @@ header .intro-text .make {
     transition: padding 0.3s;
   }
 
-  /* line 32, ../scss/layouts/_mobile.scss */
+  /* line 36, ../scss/layouts/_mobile.scss */
   .navbarfixed-top .navbar-brand {
     font-size: 2em;
     -webkit-transition: all 0.3s;
@@ -1327,22 +1368,33 @@ header .intro-text .make {
     transition: all 0.3s;
   }
 
-  /* line 39, ../scss/layouts/_mobile.scss */
+  /* line 43, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0;
   }
 
-  /* line 43, ../scss/layouts/_mobile.scss */
+  /* line 47, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
 }
 /*-----end navbar---------*/
 /*sections*/
-@media (max-width: 767px) {
-  /* line 52, ../scss/layouts/_mobile.scss */
+@media (max-width: 768px) {
+  /* line 56, ../scss/layouts/_mobile.scss */
   section {
     padding: 75px 0;
+  }
+
+  /* line 60, ../scss/layouts/_mobile.scss */
+  section.first {
+    padding-top: 75px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 67, ../scss/layouts/_mobile.scss */
+  svg {
+    display: block;
   }
 }
 /*Navbar*/
@@ -1361,7 +1413,7 @@ header .intro-text .make {
 }
 /* line 16, ../scss/layouts/_nav.scss */
 .navbar a.navbar-brand {
-  font-size: 30px;
+  font-size: 1.5em;
 }
 /* line 21, ../scss/layouts/_nav.scss */
 .navbar .navbar-nav {

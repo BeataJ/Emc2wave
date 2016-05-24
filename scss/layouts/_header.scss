@@ -2,11 +2,16 @@
 
 header {
     text-align: center;
-    background:$th-color;
+    background:$SC;
 
     .container {
         padding-top: 100px;
         padding-bottom: 50px;
+    }
+
+    .jumbotron {
+        background:$TSA;
+        border-bottom: solid 20px $footer-color;
     }
 
     svg {
@@ -20,10 +25,12 @@ header {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 2em;
+        color:#117788;
     }
 
     .intro-text .make {
         font-size: 1.25em;
-        font-weight: 300;
+        font-weight: 700;
+        text-transform: uppercase;
     }
 }

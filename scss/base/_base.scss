@@ -6,6 +6,7 @@ body {
     color:$second-font-color;
     overflow-x: hidden;
 
+
     a,
     a:hover,
     a:focus,
@@ -19,4 +20,6 @@ body {
 }
 
 
-
+svg {
+    width: 100%;
+}

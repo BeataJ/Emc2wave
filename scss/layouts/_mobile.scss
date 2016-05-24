@@ -15,6 +15,10 @@
     header .intro-text .make {
         font-size: 1.75em;
     }
+
+   section {
+        font-size: 1em;
+    }
 }
 /*----end header--------*/
 
@@ -48,8 +52,19 @@
 
 /*sections*/
 
-@media (max-width: 767px){
+@media (max-width: 768px){
     section {
         padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    svg {
+        display: block;
     }
 }

@@ -2,17 +2,43 @@
 
 section {
     padding: 100px 0;
+    margin: auto;
 
     h2 {
         margin: 0;
         font-size:3em;
     }
+
 }
 
- #web, #network {
-        background-color:$second-color;
+#web, #network {
+  background-color:$second-color;
+  color:$robot-color;
+
 }
 
-#data, #serwer, #about {
-    background-color: $primary-color;
+#data, #server, #about {
+   background-color: $data;
+   color:#3D424C;
+}
+
+#data{
+  .panelD1, .panelD2, .panelD3 {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+  .panelD1,.panelD2, .panelD3 {
+        background: #FFFFEE;
+        border-bottom: solid 20px #117788;
+    }
+
+
+    .well {
+        background: #FFFFEE;
+        border-bottom: solid 20px $fire-color;
+    }
+
+    #pD {
+        text-align:center;
+    }
 }
