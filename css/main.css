@@ -56,579 +56,1067 @@ svg {
 @keyframes table-color {
   /* line 8, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-fill: #0049e5;
+    -moz-fill: #0049e5;
+    -ms-fill: #0049e5;
+    -o-fill: #0049e5;
     fill: #0049e5;
   }
 
-  /* line 9, ../scss/moduls/_animations.scss */
+  /* line 13, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-fill: #ffffee;
+    -moz-fill: #ffffee;
+    -ms-fill: #ffffee;
+    -o-fill: #ffffee;
     fill: #ffffee;
   }
 }
 
-/* line 12, ../scss/moduls/_animations.scss */
+/* line 20, ../scss/moduls/_animations.scss */
 #table {
+  -webkit-animation: table-color 1s infinite linear;
+  -moz-animation: table-color 1s infinite linear;
+  -ms-animation: table-color 1s infinite linear;
+  -o-animation: table-color 1s infinite linear;
   animation: table-color 1s infinite linear;
 }
 
 @keyframes button-color {
-  /* line 17, ../scss/moduls/_animations.scss */
+  /* line 29, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-fill: #f28f79;
+    -moz-fill: #f28f79;
+    -ms-fill: #f28f79;
+    -o-fill: #f28f79;
     fill: #f28f79;
   }
 
-  /* line 18, ../scss/moduls/_animations.scss */
+  /* line 36, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
     transform: scale(1.5);
   }
 
-  /* line 19, ../scss/moduls/_animations.scss */
+  /* line 43, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-fill: #0049e5;
+    -moz-fill: #0049e5;
+    -ms-fill: #0049e5;
+    -o-fill: #0049e5;
     fill: #0049e5;
   }
 }
 
-/* line 22, ../scss/moduls/_animations.scss */
+/* line 52, ../scss/moduls/_animations.scss */
 #button3 {
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
   transform-origin: center;
+  -webkit-animation: button-color 5s infinite .5s;
+  -moz-animation: button-color 5s infinite .5s;
+  -ms-animation: button-color 5s infinite .5s;
+  -o-animation: button-color 5s infinite .5s;
   animation: button-color 5s infinite .5s;
 }
 
 /*moving robot*/
 @keyframes up-down-left {
-  /* line 30, ../scss/moduls/_animations.scss */
+  /* line 68, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 31, ../scss/moduls/_animations.scss */
+  /* line 75, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    -o-transform: rotate(50deg);
     transform: rotate(50deg);
   }
 
-  /* line 32, ../scss/moduls/_animations.scss */
+  /* line 82, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
     transform: rotate(-1deg);
   }
 }
 
-/* line 35, ../scss/moduls/_animations.scss */
+/* line 91, ../scss/moduls/_animations.scss */
 #left-arm {
+  -webkit-transform-origin: 84px 140px;
+  -moz-transform-origin: 84px 140px;
+  -ms-transform-origin: 84px 140px;
+  -o-transform-origin: 84px 140px;
   transform-origin: 84px 140px;
+  -webkit-animation: up-down-left 2s ease-in .5s;
+  -moz-animation: up-down-left 2s ease-in .5s;
+  -ms-animation: up-down-left 2s ease-in .5s;
+  -o-animation: up-down-left 2s ease-in .5s;
   animation: up-down-left 2s ease-in .5s;
 }
 
 @keyframes up-down-right {
-  /* line 41, ../scss/moduls/_animations.scss */
+  /* line 105, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 42, ../scss/moduls/_animations.scss */
+  /* line 112, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
     transform: rotate(-50deg);
   }
 
-  /* line 43, ../scss/moduls/_animations.scss */
+  /* line 119, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
     transform: rotate(1deg);
   }
 }
 
-/* line 46, ../scss/moduls/_animations.scss */
+/* line 128, ../scss/moduls/_animations.scss */
 #right-arm {
+  -webkit-transform-origin: 188px 140px;
+  -moz-transform-origin: 188px 140px;
+  -ms-transform-origin: 188px 140px;
+  -o-transform-origin: 188px 140px;
   transform-origin: 188px 140px;
+  -webkit-animation: up-down-right 2s ease-in .5s;
+  -moz-animation: up-down-right 2s ease-in .5s;
+  -ms-animation: up-down-right 2s ease-in .5s;
+  -o-animation: up-down-right 2s ease-in .5s;
   animation: up-down-right 2s ease-in .5s;
 }
 
 @keyframes head-shake {
-  /* line 52, ../scss/moduls/_animations.scss */
+  /* line 142, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 53, ../scss/moduls/_animations.scss */
+  /* line 149, ../scss/moduls/_animations.scss */
   10% {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
     transform: rotate(30deg);
   }
 
-  /* line 54, ../scss/moduls/_animations.scss */
+  /* line 156, ../scss/moduls/_animations.scss */
   20% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 55, ../scss/moduls/_animations.scss */
+  /* line 163, ../scss/moduls/_animations.scss */
   30% {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
     transform: rotate(30deg);
   }
 
-  /* line 56, ../scss/moduls/_animations.scss */
+  /* line 170, ../scss/moduls/_animations.scss */
   40% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 57, ../scss/moduls/_animations.scss */
+  /* line 177, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
     transform: rotate(-30deg);
   }
 
-  /* line 58, ../scss/moduls/_animations.scss */
+  /* line 184, ../scss/moduls/_animations.scss */
   60% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 59, ../scss/moduls/_animations.scss */
+  /* line 191, ../scss/moduls/_animations.scss */
   70% {
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
     transform: rotate(-30deg);
   }
 }
 
-/* line 62, ../scss/moduls/_animations.scss */
+/* line 200, ../scss/moduls/_animations.scss */
 #head {
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
   transform-origin: center;
+  -webkit-animation: head-shake 4s ease 3s;
+  -moz-animation: head-shake 4s ease 3s;
+  -ms-animation: head-shake 4s ease 3s;
+  -o-animation: head-shake 4s ease 3s;
   animation: head-shake 4s ease 3s;
 }
 
 @keyframes ears-up {
-  /* line 68, ../scss/moduls/_animations.scss */
+  /* line 214, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
     transform: translateY(0px);
   }
 
-  /* line 69, ../scss/moduls/_animations.scss */
+  /* line 221, ../scss/moduls/_animations.scss */
   25% {
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
     transform: translateY(10px);
   }
 
-  /* line 70, ../scss/moduls/_animations.scss */
+  /* line 228, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
     transform: translateY(0px);
   }
 
-  /* line 71, ../scss/moduls/_animations.scss */
+  /* line 235, ../scss/moduls/_animations.scss */
   75% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
     transform: translateY(-10px);
   }
 
-  /* line 72, ../scss/moduls/_animations.scss */
+  /* line 242, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
     transform: translateY(0px);
   }
 }
 
-/* line 75, ../scss/moduls/_animations.scss */
+/* line 251, ../scss/moduls/_animations.scss */
 #ears {
+  -wekit-animation: ears-up 1s ease 7s;
+  -moz-animation: ears-up 1s ease 7s;
+  -ms-animation: ears-up 1s ease 7s;
+  -o-animation: ears-up 1s ease 7s;
   animation: ears-up 1s ease 7s;
 }
 
 @keyframes leg-up {
-  /* line 81, ../scss/moduls/_animations.scss */
+  /* line 260, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
     transform: translateY(0px);
   }
 
-  /* line 82, ../scss/moduls/_animations.scss */
+  /* line 267, ../scss/moduls/_animations.scss */
   25% {
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
     transform: translateY(-20px);
   }
 
-  /* line 83, ../scss/moduls/_animations.scss */
+  /* line 274, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
     transform: translateY(0px);
   }
 
-  /* line 84, ../scss/moduls/_animations.scss */
+  /* line 281, ../scss/moduls/_animations.scss */
   75% {
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
     transform: translateY(-20px);
   }
 
-  /* line 85, ../scss/moduls/_animations.scss */
+  /* line 288, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
     transform: translateY(0px);
   }
 }
 
-/* line 88, ../scss/moduls/_animations.scss */
+/* line 297, ../scss/moduls/_animations.scss */
 #robot-leg1 {
+  -webkit-animation: leg-up 3s ease-in 7s;
+  -moz-animation: leg-up 3s ease-in 7s;
+  -ms-animation: leg-up 3s ease-in 7s;
+  -o-animation: leg-up 3s ease-in 7s;
   animation: leg-up 3s ease-in 7s;
 }
 
-/* line 92, ../scss/moduls/_animations.scss */
+/* line 305, ../scss/moduls/_animations.scss */
 #robot-leg2 {
+  -webkit-animation: leg-up 3s ease-in 8s;
+  -moz-animation: leg-up 3s ease-in 8s;
+  -ms-animation: leg-up 3s ease-in 8s;
+  -o-animation: leg-up 3s ease-in 8s;
   animation: leg-up 3s ease-in 8s;
 }
 
 @keyframes antennae1 {
-  /* line 97, ../scss/moduls/_animations.scss */
+  /* line 314, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 98, ../scss/moduls/_animations.scss */
+  /* line 321, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
     transform: rotate(-10deg);
   }
 }
 
-/* line 101, ../scss/moduls/_animations.scss */
+/* line 330, ../scss/moduls/_animations.scss */
 #head-antennae1 {
+  -webkit-transform-origin: 135px 35px;
+  -moz-transform-origin: 135px 35px;
+  -ms-transform-origin: 135px 35px;
+  -o-transform-origin: 135px 35px;
   transform-origin: 135px 35px;
+  -webkit-animation: antennae1 1s ease infinite 8s;
+  -moz-animation: antennae1 1s ease infinite 8s;
+  -ms-animation: antennae1 1s ease infinite 8s;
+  -o-animation: antennae1 1s ease infinite 8s;
   animation: antennae1 1s ease infinite 8s;
 }
 
 @keyframes antennae2 {
-  /* line 107, ../scss/moduls/_animations.scss */
+  /* line 344, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 108, ../scss/moduls/_animations.scss */
+  /* line 351, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
     transform: rotate(20deg);
   }
 }
 
-/* line 111, ../scss/moduls/_animations.scss */
+/* line 360, ../scss/moduls/_animations.scss */
 #head-antennae2 {
+  -webkit-transform-origin: 135px 35px;
+  -moztransform-origin: 135px 35px;
+  -ms-transform-origin: 135px 35px;
+  -o-transform-origin: 135px 35px;
   transform-origin: 135px 35px;
+  -webkit-animation: antennae2 1s ease infinite 8s;
+  -moz-animation: antennae2 1s ease infinite 8s;
+  -ms-animation: antennae2 1s ease infinite 8s;
+  -o-animation: antennae2 1s ease infinite 8s;
   animation: antennae2 1s ease infinite 8s;
 }
 
 /*-----end robot animations*/
 /*---data----*/
 @keyframes strips {
-  /* line 120, ../scss/moduls/_animations.scss */
+  /* line 377, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-fill: #f2f2f2;
+    -moz-fill: #f2f2f2;
+    -ms-fill: #f2f2f2;
+    -o-fill: #f2f2f2;
     fill: #f2f2f2;
   }
 
-  /* line 121, ../scss/moduls/_animations.scss */
+  /* line 384, ../scss/moduls/_animations.scss */
   25% {
+    -webkit-fill: #aaccdd;
+    -moz-fill: #aaccdd;
+    -ms-fill: #aaccdd;
+    -o-fill: #aaccdd;
     fill: #aaccdd;
   }
 
-  /* line 122, ../scss/moduls/_animations.scss */
+  /* line 391, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-fill: white;
+    -moz-fill: white;
+    -ms-fill: white;
+    -o-fill: white;
     fill: white;
   }
 
-  /* line 123, ../scss/moduls/_animations.scss */
+  /* line 398, ../scss/moduls/_animations.scss */
   75% {
+    -webkit-fill: #ffffee;
+    -moz-fill: #ffffee;
+    -ms-fill: #ffffee;
+    -o-fill: #ffffee;
     fill: #ffffee;
   }
 
-  /* line 124, ../scss/moduls/_animations.scss */
+  /* line 405, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-fill: #d8b5ad;
+    -moz-fill: #d8b5ad;
+    -ms-fill: #d8b5ad;
+    -o-fill: #d8b5ad;
     fill: #d8b5ad;
   }
 }
 
-/* line 127, ../scss/moduls/_animations.scss */
+/* line 414, ../scss/moduls/_animations.scss */
 #stripA {
+  -webkit-animation: strips 2s ease-in-out infinite;
+  -moz-animation: strips 2s ease-in-out infinite;
+  -ms-animation: strips 2s ease-in-out infinite;
+  -o-animation: strips 2s ease-in-out infinite;
   animation: strips 2s ease-in-out infinite;
 }
 
-/* line 131, ../scss/moduls/_animations.scss */
+/* line 422, ../scss/moduls/_animations.scss */
 #stripB {
+  -webkit-animation: strips 3s ease-in-out infinite 1s;
+  -moz-animation: strips 3s ease-in-out infinite 1s;
+  -ms-animation: strips 3s ease-in-out infinite 1s;
+  -o-animation: strips 3s ease-in-out infinite 1s;
   animation: strips 3s ease-in-out infinite 1s;
 }
 
-/* line 135, ../scss/moduls/_animations.scss */
+/* line 430, ../scss/moduls/_animations.scss */
 #stripC {
+  -webkit-animation: strips 1s ease-in-out infinite;
+  -moz-animation: strips 1s ease-in-out infinite;
+  -ms-animation: strips 1s ease-in-out infinite;
+  -o-animation: strips 1s ease-in-out infinite;
   animation: strips 1s ease-in-out infinite;
 }
 
 @keyframes fun-up-down {
-  /* line 140, ../scss/moduls/_animations.scss */
+  /* line 439, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
     transform: translateY(0px);
   }
 
-  /* line 141, ../scss/moduls/_animations.scss */
+  /* line 446, ../scss/moduls/_animations.scss */
   25% {
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
     transform: translateY(5px);
   }
 
-  /* line 142, ../scss/moduls/_animations.scss */
+  /* line 453, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
     transform: translateY(0px);
   }
 
-  /* line 143, ../scss/moduls/_animations.scss */
+  /* line 460, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
     transform: translateY(-5px);
   }
 }
 
-/* line 146, ../scss/moduls/_animations.scss */
+/* line 469, ../scss/moduls/_animations.scss */
 #F1 {
+  -webkit-animation: fun-up-down 1s ease infinite;
+  -moz-animation: fun-up-down 1s ease infinite;
+  -ms-animation: fun-up-down 1s ease infinite;
+  -o-animation: fun-up-down 1s ease infinite;
   animation: fun-up-down 1s ease infinite;
 }
 
 /*-----end data-------*/
 /*---web------*/
 @keyframes lamp-rot {
-  /* line 155, ../scss/moduls/_animations.scss */
+  /* line 482, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 156, ../scss/moduls/_animations.scss */
+  /* line 489, ../scss/moduls/_animations.scss */
   25% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 
-  /* line 157, ../scss/moduls/_animations.scss */
+  /* line 496, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 158, ../scss/moduls/_animations.scss */
+  /* line 503, ../scss/moduls/_animations.scss */
   75% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
-/* line 161, ../scss/moduls/_animations.scss */
+/* line 512, ../scss/moduls/_animations.scss */
 #lamp-head {
+  -webkit-transform-origin: 68px 103px;
+  -moz-transform-origin: 68px 103px;
+  -ms-transform-origin: 68px 103px;
+  -o-transform-origin: 68px 103px;
   transform-origin: 68px 103px;
+  -webkit-animation: lamp-rot 4s ease infinite;
+  -moz-animation: lamp-rot 4s ease infinite;
+  -ms-animation: lamp-rot 4s ease infinite;
+  -o-animation: lamp-rot 4s ease infinite;
   animation: lamp-rot 4s ease infinite;
 }
 
 @keyframes bulb {
-  /* line 167, ../scss/moduls/_animations.scss */
+  /* line 526, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
     transform: scale(1);
   }
 
-  /* line 168, ../scss/moduls/_animations.scss */
+  /* line 533, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
     transform: scale(1.2);
+    -webkit-fill: #0049e5;
+    -moz-fill: #0049e5;
+    -ms-fill: #0049e5;
+    -o-fill: #0049e5;
     fill: #0049e5;
   }
 }
 
-/* line 171, ../scss/moduls/_animations.scss */
+/* line 547, ../scss/moduls/_animations.scss */
 #lamp-bulb {
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
   transform-origin: center;
+  -webkit-animation: bulb .5s linear infinite 4s;
+  -moz-animation: bulb .5s linear infinite 4s;
+  -ms-animation: bulb .5s linear infinite 4s;
+  -o-animation: bulb .5s linear infinite 4s;
   animation: bulb .5s linear infinite 4s;
 }
 
 /*-------end web---------*/
 /*-------servers-----------*/
 @keyframes servers {
-  /* line 180, ../scss/moduls/_animations.scss */
+  /* line 564, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
     transform: translateY(0px);
   }
 
-  /* line 181, ../scss/moduls/_animations.scss */
+  /* line 571, ../scss/moduls/_animations.scss */
   15% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
     transform: translateY(-10px);
   }
 
-  /* line 182, ../scss/moduls/_animations.scss */
+  /* line 578, ../scss/moduls/_animations.scss */
   20% {
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
     transform: translateY(-5px);
   }
 
-  /* line 183, ../scss/moduls/_animations.scss */
+  /* line 585, ../scss/moduls/_animations.scss */
   30% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
     transform: translateY(-10px);
   }
 
-  /* line 184, ../scss/moduls/_animations.scss */
+  /* line 592, ../scss/moduls/_animations.scss */
   75% {
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
     transform: translateY(-5px);
   }
 
-  /* line 185, ../scss/moduls/_animations.scss */
+  /* line 599, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
     transform: translateY(0px);
   }
 }
 
-/* line 188, ../scss/moduls/_animations.scss */
+/* line 608, ../scss/moduls/_animations.scss */
 #comA, #comB, #comC {
+  -webkit-animation: servers 1s ease infinite;
+  -moz-animation: servers 1s ease infinite;
+  -ms-animation: servers 1s ease infinite;
+  -o-animation: servers 1s ease infinite;
   animation: servers 1s ease infinite;
 }
 
 @keyframes cloud {
-  /* line 193, ../scss/moduls/_animations.scss */
+  /* line 617, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
     transform: translateX(0px);
   }
 
-  /* line 194, ../scss/moduls/_animations.scss */
+  /* line 624, ../scss/moduls/_animations.scss */
   25% {
+    -webkit-transform: translateX(30px);
+    -moz-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -o-transform: translateX(30px);
     transform: translateX(30px);
   }
 
-  /* line 195, ../scss/moduls/_animations.scss */
+  /* line 631, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
     transform: translateX(0px);
   }
 
-  /* line 196, ../scss/moduls/_animations.scss */
+  /* line 638, ../scss/moduls/_animations.scss */
   75% {
+    -webkit-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
     transform: translateX(-30px);
   }
 
-  /* line 197, ../scss/moduls/_animations.scss */
+  /* line 645, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
     transform: translateX(0px);
   }
 }
 
-/* line 200, ../scss/moduls/_animations.scss */
+/* line 654, ../scss/moduls/_animations.scss */
 #comp-cloud {
+  -webkit-animation: cloud 5s linear infinite 3s;
+  -moz-animation: cloud 5s linear infinite 3s;
+  -ms-animation: cloud 5s linear infinite 3s;
+  -o-animation: cloud 5s linear infinite 3s;
   animation: cloud 5s linear infinite 3s;
 }
 
 /*-----end servers-----------*/
 /*-----network------*/
 @keyframes root {
-  /* line 208, ../scss/moduls/_animations.scss */
+  /* line 666, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-fill: #0049e5;
+    -moz-fill: #0049e5;
+    -ms-fill: #0049e5;
+    -o-fill: #0049e5;
     fill: #0049e5;
+    -webkit-stroke: #ffffee;
+    -moz-stroke: #ffffee;
+    -ms-stroke: #ffffee;
+    -o-stroke: #ffffee;
     stroke: #ffffee;
   }
 
-  /* line 209, ../scss/moduls/_animations.scss */
+  /* line 678, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-fill: #ffffee;
+    -moz-fill: #ffffee;
+    -ms-fill: #ffffee;
+    -o-fill: #ffffee;
     fill: #ffffee;
+    -webkit-stroke: #0049e5;
+    -moz-stroke: #0049e5;
+    -ms-stroke: #0049e5;
+    -o-stroke: #0049e5;
     stroke: #0049e5;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
     transform: scale(1.5);
   }
 
-  /* line 210, ../scss/moduls/_animations.scss */
+  /* line 695, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-fill: #0049e5;
+    -moz-fill: #0049e5;
+    -ms-fill: #0049e5;
+    -o-fill: #0049e5;
     fill: #0049e5;
+    -webkit-stroke: #ffffee;
+    -moz-stroke: #ffffee;
+    -ms-stroke: #ffffee;
+    -o-stroke: #ffffee;
     stroke: #ffffee;
   }
 }
 
-/* line 213, ../scss/moduls/_animations.scss */
+/* line 709, ../scss/moduls/_animations.scss */
 #circle-big {
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
   transform-origin: center;
+  -webkit-animation: root 5s ease infinite;
+  -moz-animation: root 5s ease infinite;
+  -ms-animation: root 5s ease infinite;
+  -o-animation: root 5s ease infinite;
   animation: root 5s ease infinite;
 }
 
 @keyframes rootA {
-  /* line 219, ../scss/moduls/_animations.scss */
+  /* line 723, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-fill: none;
+    -moz-fill: none;
+    -ms-fill: none;
+    -o-fill: none;
     fill: none;
+    -webkit-stroke: #ffffee;
+    -moz-stroke: #ffffee;
+    -ms-stroke: #ffffee;
+    -o-stroke: #ffffee;
     stroke: #ffffee;
   }
 
-  /* line 220, ../scss/moduls/_animations.scss */
+  /* line 735, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-fill: none;
+    -moz-fill: none;
+    -ms-fill: none;
+    -o-fill: none;
     fill: none;
+    -webkit-stroke: #0049e5;
+    -moz-stroke: #0049e5;
+    -ms-troke: #0049e5;
+    -o-stroke: #0049e5;
     stroke: #0049e5;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
     transform: scale(1.5);
   }
 
-  /* line 221, ../scss/moduls/_animations.scss */
+  /* line 752, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-fill: none;
+    -moz-fill: none;
+    -ms-fill: none;
+    -o-fill: none;
     fill: none;
+    -webkit-stroke: #ffffee;
+    -moz-stroke: #ffffee;
+    -ms-stroke: #ffffee;
+    -o-stroke: #ffffee;
     stroke: #ffffee;
   }
 }
 
-/* line 224, ../scss/moduls/_animations.scss */
+/* line 766, ../scss/moduls/_animations.scss */
 #circle-bigA {
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
   transform-origin: center;
+  -webkit-animation: rootA 5s ease infinite;
+  -moz-animation: rootA 5s ease infinite;
+  -ms-animation: rootA 5s ease infinite;
+  -o-animation: rootA 5s ease infinite;
   animation: rootA 5s ease infinite;
 }
 
 @keyframes net {
-  /* line 230, ../scss/moduls/_animations.scss */
+  /* line 780, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-fill: #0049e5;
+    -moz-fill: #0049e5;
+    -ms-fill: #0049e5;
+    -o-fill: #0049e5;
     fill: #0049e5;
+    -webkit-stroke: #ffffee;
+    -moz-stroke: #ffffee;
+    -ms-stroke: #ffffee;
+    -o-stroke: #ffffee;
     stroke: #ffffee;
   }
 
-  /* line 231, ../scss/moduls/_animations.scss */
+  /* line 792, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-fill: #ffffee;
+    -moz-fill: #ffffee;
+    -ms-fill: #ffffee;
+    -o-fill: #ffffee;
     fill: #ffffee;
+    -webkit-stroke: #0049e5;
+    -moz-stroke: #0049e5;
+    -ms-stroke: #0049e5;
+    -o-stroke: #0049e5;
     stroke: #0049e5;
   }
 }
 
-/* line 234, ../scss/moduls/_animations.scss */
+/* line 806, ../scss/moduls/_animations.scss */
 #circleA, #circleB, #circleC, #circleE, #circleD, #circleWr {
+  -webkit-animation: net 5s ease infinite;
+  -moz-animation: net 5s ease infinite;
+  -ms-animation: net 5s ease infinite;
+  -o-animation: net 5s ease infinite;
   animation: net 5s ease infinite;
 }
 
 @keyframes waves {
-  /* line 239, ../scss/moduls/_animations.scss */
+  /* line 815, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-fill: #ffffee;
+    -moz-fill: #ffffee;
+    -ms-fill: #ffffee;
+    -o-fill: #ffffee;
     fill: #ffffee;
   }
 
-  /* line 240, ../scss/moduls/_animations.scss */
+  /* line 822, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-fill: #0049e5;
+    -moz-fill: #0049e5;
+    -ms-fill: #0049e5;
+    -o-fill: #0049e5;
     fill: #0049e5;
   }
 }
 
-/* line 243, ../scss/moduls/_animations.scss */
+/* line 831, ../scss/moduls/_animations.scss */
 #EWa1, #EWa2 {
+  -webkit-animation: waves 3s ease-in-out infinite;
+  -moz-animation: waves 3s ease-in-out infinite;
+  -ms-animation: waves 3s ease-in-out infinite;
+  -o-animation: waves 3s ease-in-out infinite;
   animation: waves 3s ease-in-out infinite;
 }
 
-/* line 247, ../scss/moduls/_animations.scss */
+/* line 839, ../scss/moduls/_animations.scss */
 #EWa3, #EWa4 {
+  -webkit-animation: waves 4s ease-in-out infinite;
+  -moz-animation: waves 4s ease-in-out infinite;
+  -ms-animation: waves 4s ease-in-out infinite;
+  -o-animation: waves 4s ease-in-out infinite;
   animation: waves 4s ease-in-out infinite;
 }
 
-/* line 251, ../scss/moduls/_animations.scss */
+/* line 848, ../scss/moduls/_animations.scss */
 #EWa5, #EWa6 {
+  -webkit-animation: waves 5s ease-in-out infinite;
+  -moz-animation: waves 5s ease-in-out infinite;
+  -ms-animation: waves 5s ease-in-out infinite;
+  -o-animation: waves 5s ease-in-out infinite;
   animation: waves 5s ease-in-out infinite;
 }
 
 /*----------end network----------*/
 /*----about-----*/
 @keyframes speechM {
-  /* line 260, ../scss/moduls/_animations.scss */
+  /* line 861, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
     transform: rotate(2deg);
   }
 
-  /* line 261, ../scss/moduls/_animations.scss */
+  /* line 868, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
     transform: rotate(-2deg);
   }
 }
 
-/* line 264, ../scss/moduls/_animations.scss */
+/* line 877, ../scss/moduls/_animations.scss */
 #move-speechM {
+  -webkit-animation: speechM .75s ease infinite;
+  -moz-animation: speechM .75s ease infinite;
+  -ms-animation: speechM .75s ease infinite;
+  -o-animation: speechM .75s ease infinite;
   animation: speechM .75s ease infinite;
 }
 
 @keyframes tik-tok {
-  /* line 269, ../scss/moduls/_animations.scss */
+  /* line 886, ../scss/moduls/_animations.scss */
   0% {
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
     transform: translateY(5px);
   }
 
-  /* line 270, ../scss/moduls/_animations.scss */
+  /* line 893, ../scss/moduls/_animations.scss */
   25% {
+    -webkit-transform: translateY(3px);
+    -moz-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    -o-transform: translateY(3px);
     transform: translateY(3px);
   }
 
-  /* line 271, ../scss/moduls/_animations.scss */
+  /* line 900, ../scss/moduls/_animations.scss */
   50% {
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -o-transform: translateY(1px);
     transform: translateY(1px);
   }
 
-  /* line 272, ../scss/moduls/_animations.scss */
+  /* line 907, ../scss/moduls/_animations.scss */
   100% {
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
     transform: translateY(5px);
   }
 }
 
-/* line 275, ../scss/moduls/_animations.scss */
+/* line 916, ../scss/moduls/_animations.scss */
 #headW {
+  -webkit-animation: tik-tok 1.3s ease infinite;
+  -moz-animation: tik-tok 1.3s ease infinite;
+  -ms-animation: tik-tok 1.3s ease infinite;
+  -o-animation: tik-tok 1.3s ease infinite;
   animation: tik-tok 1.3s ease infinite;
 }
 
@@ -1256,7 +1744,7 @@ section h2 {
 /* line 20, ../scss/moduls/_sections.scss */
 #data, #server, #about {
   background-color: #bbdddd;
-  color: #3D424C;
+  color: #3d424c;
 }
 
 /* line 26, ../scss/moduls/_sections.scss */
@@ -1266,17 +1754,22 @@ section h2 {
 }
 /* line 30, ../scss/moduls/_sections.scss */
 #data .panelD1, #data .panelD2, #data .panelD3 {
-  background: #FFFFEE;
+  background: #ffffee;
   border-bottom: solid 20px #117788;
 }
 /* line 36, ../scss/moduls/_sections.scss */
 #data .well {
-  background: #FFFFEE;
+  background: #ffffee;
   border-bottom: solid 20px #993322;
 }
 /* line 41, ../scss/moduls/_sections.scss */
 #data #pD {
   text-align: center;
+}
+/* line 46, ../scss/moduls/_sections.scss */
+#data .glyphicon-tasks, #data .glyphicon-stats, #data .glyphicon-transfer {
+  color: #117788;
+  font-size: 40px;
 }
 
 /*Layouts - Page layout style*/
