@@ -1768,6 +1768,38 @@ section h2 {
 }
 /* line 46, ../scss/moduls/_sections.scss */
 #data .glyphicon-tasks, #data .glyphicon-stats, #data .glyphicon-transfer {
+  color: #0035a8;
+  font-size: 40px;
+}
+
+/* line 53, ../scss/moduls/_sections.scss */
+#web .panel {
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #f2deda;
+  border-bottom: solid 20px #7f4b3f;
+}
+/* line 60, ../scss/moduls/_sections.scss */
+#web .panel .panel-body span {
+  margin: 15px;
+  margin-left: 4px;
+}
+/* line 68, ../scss/moduls/_sections.scss */
+#web h4 {
+  text-align: center;
+}
+/* line 72, ../scss/moduls/_sections.scss */
+#web .well {
+  background: #f2deda;
+  border-bottom: solid 20px #002266;
+}
+/* line 77, ../scss/moduls/_sections.scss */
+#web .glyphicon-thumbs-up {
+  color: #117788;
+  font-weight: 700;
+}
+/* line 82, ../scss/moduls/_sections.scss */
+#web .glyphicon-eye-open, #web .glyphicon-pencil {
   color: #117788;
   font-size: 40px;
 }

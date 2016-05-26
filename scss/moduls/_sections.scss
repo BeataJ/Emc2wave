@@ -44,7 +44,43 @@ section {
 
 
     .glyphicon-tasks, .glyphicon-stats, .glyphicon-transfer {
-        color: $sixty-color;
+        color: $robot-eye2;
         font-size: 40px;
+    }
+}
+
+#web {
+    .panel{
+        padding: 15px;
+        margin-bottom: 15px;
+        background: $MSB;
+        border-bottom: solid 20px $seventh-color;
+
+        .panel-body {
+            span {
+                margin: 15px;
+                margin-left: 4px;
+            }
+        }
+
+}
+
+    h4 {
+        text-align: center;
+    }
+
+    .well {
+        background:$MSB;
+        border-bottom: solid 20px $nav-color;
+    }
+
+    .glyphicon-thumbs-up {
+        color: $sixty-color;
+        font-weight: 700;
+    }
+
+    .glyphicon-eye-open, .glyphicon-pencil {
+       color: $sixty-color;
+       font-size: 40px;
     }
 }
