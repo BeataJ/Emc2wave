@@ -1,7 +1,7 @@
 /*_sections.scss*/
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
     margin: auto;
 
     h2 {
@@ -26,19 +26,17 @@ section {
   .panelD1, .panelD2, .panelD3 {
         padding: 15px;
         margin-bottom: 15px;
-    }
-  .panelD1,.panelD2, .panelD3 {
         background: $robot-table2;
         border-bottom: solid 20px $sixty-color;
     }
-
 
     .well {
         background: $robot-table2;
         border-bottom: solid 20px $fire-color;
     }
 
-    #pD {
+    h4 {
+        padding: 25px;
         text-align:center;
     }
 
@@ -63,10 +61,14 @@ section {
             }
         }
 
+
+        .b1, .b2, .b3, .b4 {
+            text-align: center;
+        }
 }
 
     h4 {
-        text-align: center;
+     text-align: center;
     }
 
     .well {
@@ -83,4 +85,33 @@ section {
        color: $sixty-color;
        font-size: 40px;
     }
+}
+
+#server {
+    .panel {
+        padding: 25px;
+        margin-bottom:15px;
+        background: $data-strip;
+
+        .panel-body {
+            span {
+              margin: 15px;
+              margin-left: 4px;
+            }
+        }
+
+        .glyphicon-hdd, .glyphicon-bell {
+            font-size: 40px;
+            color: $robot-eye2;
+        }
+    }
+
+    .well {
+        background:$data-strip;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
 }

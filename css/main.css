@@ -1726,7 +1726,7 @@ line {
 /*_sections.scss*/
 /* line 3, ../scss/moduls/_sections.scss */
 section {
-  padding: 100px 0;
+  padding: 50px 0;
   margin: auto;
 }
 /* line 7, ../scss/moduls/_sections.scss */
@@ -1751,57 +1751,84 @@ section h2 {
 #data .panelD1, #data .panelD2, #data .panelD3 {
   padding: 15px;
   margin-bottom: 15px;
-}
-/* line 30, ../scss/moduls/_sections.scss */
-#data .panelD1, #data .panelD2, #data .panelD3 {
   background: #ffffee;
   border-bottom: solid 20px #117788;
 }
-/* line 36, ../scss/moduls/_sections.scss */
+/* line 33, ../scss/moduls/_sections.scss */
 #data .well {
   background: #ffffee;
   border-bottom: solid 20px #993322;
 }
-/* line 41, ../scss/moduls/_sections.scss */
-#data #pD {
+/* line 38, ../scss/moduls/_sections.scss */
+#data h4 {
+  padding: 25px;
   text-align: center;
 }
-/* line 46, ../scss/moduls/_sections.scss */
+/* line 44, ../scss/moduls/_sections.scss */
 #data .glyphicon-tasks, #data .glyphicon-stats, #data .glyphicon-transfer {
   color: #0035a8;
   font-size: 40px;
 }
 
-/* line 53, ../scss/moduls/_sections.scss */
+/* line 51, ../scss/moduls/_sections.scss */
 #web .panel {
   padding: 15px;
   margin-bottom: 15px;
   background: #f2deda;
   border-bottom: solid 20px #7f4b3f;
 }
-/* line 60, ../scss/moduls/_sections.scss */
+/* line 58, ../scss/moduls/_sections.scss */
 #web .panel .panel-body span {
   margin: 15px;
   margin-left: 4px;
 }
-/* line 68, ../scss/moduls/_sections.scss */
+/* line 65, ../scss/moduls/_sections.scss */
+#web .panel .b1, #web .panel .b2, #web .panel .b3, #web .panel .b4 {
+  text-align: center;
+}
+/* line 70, ../scss/moduls/_sections.scss */
 #web h4 {
   text-align: center;
 }
-/* line 72, ../scss/moduls/_sections.scss */
+/* line 74, ../scss/moduls/_sections.scss */
 #web .well {
   background: #f2deda;
   border-bottom: solid 20px #002266;
 }
-/* line 77, ../scss/moduls/_sections.scss */
+/* line 79, ../scss/moduls/_sections.scss */
 #web .glyphicon-thumbs-up {
   color: #117788;
   font-weight: 700;
 }
-/* line 82, ../scss/moduls/_sections.scss */
+/* line 84, ../scss/moduls/_sections.scss */
 #web .glyphicon-eye-open, #web .glyphicon-pencil {
   color: #117788;
   font-size: 40px;
+}
+
+/* line 91, ../scss/moduls/_sections.scss */
+#server .panel {
+  padding: 25px;
+  margin-bottom: 15px;
+  background: #f2f2f2;
+}
+/* line 97, ../scss/moduls/_sections.scss */
+#server .panel .panel-body span {
+  margin: 15px;
+  margin-left: 4px;
+}
+/* line 103, ../scss/moduls/_sections.scss */
+#server .panel .glyphicon-hdd, #server .panel .glyphicon-bell {
+  font-size: 40px;
+  color: #0035a8;
+}
+/* line 109, ../scss/moduls/_sections.scss */
+#server .well {
+  background: #f2f2f2;
+}
+/* line 113, ../scss/moduls/_sections.scss */
+#server h4 {
+  text-align: center;
 }
 
 /*Layouts - Page layout style*/
@@ -1827,7 +1854,7 @@ header .container {
 /* line 12, ../scss/layouts/_header.scss */
 header .jumbotron {
   background: #d7d9dd;
-  border-bottom: solid 20px #3d424c;
+  border-bottom: solid 20px #117788;
 }
 /* line 17, ../scss/layouts/_header.scss */
 header svg {
