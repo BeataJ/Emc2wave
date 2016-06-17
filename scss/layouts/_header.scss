@@ -2,17 +2,20 @@
 
 header {
     text-align: center;
-    background:$SC;
+    /*background:$SC;*/
 
-    .container {
-        padding-top: 100px;
-        padding-bottom: 50px;
-    }
 
-    .jumbotron {
-        background:$TSA;
+
+  .jumbotron {
+        background:$base-font-color;
         border-bottom: solid 20px $sixty-color;
+        border-left: solid 5px $fifty-color;
+        border-right: solid 5px $fifty-color;
+        border-top: solid 5px $fifty-color;
     }
+
+
+
 
     svg {
         display: block;

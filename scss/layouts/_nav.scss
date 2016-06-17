@@ -10,8 +10,14 @@
         font-family: $second-font-family;
         text-transform: uppercase;
         font-weight: 700;
-
     }
+
+      a:hover,
+      a:focus,
+        {
+        color:$robot-button !important;
+        }
+
 
     a.navbar-brand {
         font-size: 1.5em;

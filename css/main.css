@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 9, ../scss/base/_normalize.scss */
 .glyphicon.glyphicon-fire {
   color: #993322;
-  font-size: 40px;
+  font-size: 2.5em;
   margin: 20px auto 30px auto;
 }
 
@@ -34,17 +34,17 @@ body {
   color: #002266;
   overflow-x: hidden;
 }
-/* line 14, ../scss/base/_base.scss */
-body a,
-body a:hover,
-body a:focus,
-body a:active,
-body a.active {
-  color: #99b9ff !important;
-  outline: none;
-}
 
-/* line 23, ../scss/base/_base.scss */
+/*
+a:hover,
+a:focus,
+a:active,
+a.active {
+      color: $robot-button;
+      outline: none;
+     }
+*/
+/* line 19, ../scss/base/_base.scss */
 svg {
   width: 100%;
 }
@@ -521,11 +521,11 @@ svg {
 
   /* line 398, ../scss/moduls/_animations.scss */
   75% {
-    -webkit-fill: #ffffee;
-    -moz-fill: #ffffee;
-    -ms-fill: #ffffee;
-    -o-fill: #ffffee;
-    fill: #ffffee;
+    -webkit-fill: #f2deda;
+    -moz-fill: #f2deda;
+    -ms-fill: #f2deda;
+    -o-fill: #f2deda;
+    fill: #f2deda;
   }
 
   /* line 405, ../scss/moduls/_animations.scss */
@@ -683,11 +683,11 @@ svg {
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
-    -webkit-fill: #0049e5;
-    -moz-fill: #0049e5;
-    -ms-fill: #0049e5;
-    -o-fill: #0049e5;
-    fill: #0049e5;
+    -webkit-fill: #f28f79;
+    -moz-fill: #886611;
+    -ms-fill: #f28f79;
+    -o-fill: #886611;
+    fill: #f28f79;
   }
 }
 
@@ -838,20 +838,20 @@ svg {
     -ms-fill: #0049e5;
     -o-fill: #0049e5;
     fill: #0049e5;
-    -webkit-stroke: #ffffee;
-    -moz-stroke: #ffffee;
-    -ms-stroke: #ffffee;
-    -o-stroke: #ffffee;
-    stroke: #ffffee;
+    -webkit-stroke: #f2deda;
+    -moz-stroke: #f2deda;
+    -ms-stroke: #f2deda;
+    -o-stroke: #f2deda;
+    stroke: #f2deda;
   }
 
   /* line 678, ../scss/moduls/_animations.scss */
   50% {
-    -webkit-fill: #ffffee;
-    -moz-fill: #ffffee;
-    -ms-fill: #ffffee;
-    -o-fill: #ffffee;
-    fill: #ffffee;
+    -webkit-fill: #f2deda;
+    -moz-fill: #f2deda;
+    -ms-fill: #f2deda;
+    -o-fill: #f2deda;
+    fill: #f2deda;
     -webkit-stroke: #0049e5;
     -moz-stroke: #0049e5;
     -ms-stroke: #0049e5;
@@ -871,11 +871,11 @@ svg {
     -ms-fill: #0049e5;
     -o-fill: #0049e5;
     fill: #0049e5;
-    -webkit-stroke: #ffffee;
-    -moz-stroke: #ffffee;
-    -ms-stroke: #ffffee;
-    -o-stroke: #ffffee;
-    stroke: #ffffee;
+    -webkit-stroke: #f2deda;
+    -moz-stroke: #f2deda;
+    -ms-stroke: #f2deda;
+    -o-stroke: #f2deda;
+    stroke: #f2deda;
   }
 }
 
@@ -901,11 +901,11 @@ svg {
     -ms-fill: none;
     -o-fill: none;
     fill: none;
-    -webkit-stroke: #ffffee;
-    -moz-stroke: #ffffee;
-    -ms-stroke: #ffffee;
-    -o-stroke: #ffffee;
-    stroke: #ffffee;
+    -webkit-stroke: #f2deda;
+    -moz-stroke: #f2deda;
+    -ms-stroke: #f2deda;
+    -o-stroke: #f2deda;
+    stroke: #f2deda;
   }
 
   /* line 735, ../scss/moduls/_animations.scss */
@@ -934,11 +934,11 @@ svg {
     -ms-fill: none;
     -o-fill: none;
     fill: none;
-    -webkit-stroke: #ffffee;
-    -moz-stroke: #ffffee;
-    -ms-stroke: #ffffee;
-    -o-stroke: #ffffee;
-    stroke: #ffffee;
+    -webkit-stroke: #f2deda;
+    -moz-stroke: #f2deda;
+    -ms-stroke: #f2deda;
+    -o-stroke: #f2deda;
+    stroke: #f2deda;
   }
 }
 
@@ -964,20 +964,20 @@ svg {
     -ms-fill: #0049e5;
     -o-fill: #0049e5;
     fill: #0049e5;
-    -webkit-stroke: #ffffee;
-    -moz-stroke: #ffffee;
-    -ms-stroke: #ffffee;
-    -o-stroke: #ffffee;
-    stroke: #ffffee;
+    -webkit-stroke: #f2deda;
+    -moz-stroke: #f2deda;
+    -ms-stroke: #f2deda;
+    -o-stroke: #f2deda;
+    stroke: #f2deda;
   }
 
   /* line 792, ../scss/moduls/_animations.scss */
   100% {
-    -webkit-fill: #ffffee;
-    -moz-fill: #ffffee;
-    -ms-fill: #ffffee;
-    -o-fill: #ffffee;
-    fill: #ffffee;
+    -webkit-fill: #f2deda;
+    -moz-fill: #f2deda;
+    -ms-fill: #f2deda;
+    -o-fill: #f2deda;
+    fill: #f2deda;
     -webkit-stroke: #0049e5;
     -moz-stroke: #0049e5;
     -ms-stroke: #0049e5;
@@ -998,11 +998,11 @@ svg {
 @keyframes waves {
   /* line 815, ../scss/moduls/_animations.scss */
   0% {
-    -webkit-fill: #ffffee;
-    -moz-fill: #ffffee;
-    -ms-fill: #ffffee;
-    -o-fill: #ffffee;
-    fill: #ffffee;
+    -webkit-fill: #f2deda;
+    -moz-fill: #f2deda;
+    -ms-fill: #f2deda;
+    -o-fill: #f2deda;
+    fill: #f2deda;
   }
 
   /* line 822, ../scss/moduls/_animations.scss */
@@ -1346,7 +1346,7 @@ svg {
 
 /* line 198, ../scss/moduls/_components.scss */
 #lamp-bulb {
-  fill: #ffffee;
+  fill: #f2deda;
 }
 
 /*end lamp*/
@@ -1568,35 +1568,35 @@ line {
 /* line 402, ../scss/moduls/_components.scss */
 #circle-big {
   fill: #0049e5;
-  stroke: #ffffee;
+  stroke: #f2deda;
   stroke-width: 3px;
 }
 
 /* line 408, ../scss/moduls/_components.scss */
 #circle-bigA {
   fill: none;
-  stroke: #ffffee;
+  stroke: #f2deda;
   stroke-width: 3px;
 }
 
 /* line 414, ../scss/moduls/_components.scss */
 #circleA, #circleB, #circleC, #circleE, #circleD, #circleWr {
   fill: #0049e5;
-  stroke: #ffffee;
+  stroke: #f2deda;
   stroke-width: 3px;
 }
 
 /* line 421, ../scss/moduls/_components.scss */
 #EWa1, #EWa2, #EWa3, #EWa4, #EWa5, #EWa6 {
-  fill: #ffffee;
-  stroke: #ffffee;
+  fill: #f2deda;
+  stroke: #f2deda;
   stroke-width: 1px;
 }
 
 /* line 427, ../scss/moduls/_components.scss */
 #LA, #LB, #LC, #LD, #LE {
-  fill: #ffffee;
-  stroke: #ffffee;
+  fill: #f2deda;
+  stroke: #f2deda;
   stroke-width: 4px;
 }
 
@@ -1731,103 +1731,112 @@ section {
 }
 /* line 7, ../scss/moduls/_sections.scss */
 section h2 {
-  margin: 0;
+  margin: 60px 0 0 0;
   font-size: 3em;
 }
+/* line 12, ../scss/moduls/_sections.scss */
+section svg {
+  margin-top: 50px;
+  position: relative;
+}
 
-/* line 14, ../scss/moduls/_sections.scss */
+/* line 19, ../scss/moduls/_sections.scss */
 #web, #network {
-  background-color: #aaccdd;
+  /*background-color:$second-color;*/
   color: #886611;
 }
 
-/* line 20, ../scss/moduls/_sections.scss */
+/* line 25, ../scss/moduls/_sections.scss */
 #data, #server, #about {
-  background-color: #bbdddd;
+  /*background-color: $data;*/
   color: #3d424c;
 }
 
-/* line 26, ../scss/moduls/_sections.scss */
-#data .panelD1, #data .panelD2, #data .panelD3 {
-  padding: 15px;
-  margin-bottom: 15px;
-  background: #ffffee;
-  border-bottom: solid 20px #117788;
-}
-/* line 33, ../scss/moduls/_sections.scss */
+/* line 31, ../scss/moduls/_sections.scss */
 #data .well {
   background: #ffffee;
   border-bottom: solid 20px #993322;
 }
-/* line 38, ../scss/moduls/_sections.scss */
+/* line 36, ../scss/moduls/_sections.scss */
+#data a {
+  color: #3d424c !important;
+  font-size: 0.8em;
+  font-weight: 800;
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 0.8em;
+  text-transform: uppercase;
+}
+/* line 45, ../scss/moduls/_sections.scss */
 #data h4 {
   padding: 25px;
   text-align: center;
 }
-/* line 44, ../scss/moduls/_sections.scss */
-#data .glyphicon-tasks, #data .glyphicon-stats, #data .glyphicon-transfer {
-  color: #0035a8;
-  font-size: 40px;
+/* line 52, ../scss/moduls/_sections.scss */
+#data .glyphicon-tasks, #data .glyphicon-stats, #data .glyphicon-transfer, #data .glyphicon-hdd {
+  color: #993322;
+  font-size: 2em;
 }
 
-/* line 51, ../scss/moduls/_sections.scss */
-#web .panel {
-  padding: 15px;
-  margin-bottom: 15px;
-  background: #f2deda;
-  border-bottom: solid 20px #7f4b3f;
+/* line 59, ../scss/moduls/_sections.scss */
+#web {
+  /*a,
+   a:hover,
+   a:focus {
+     font-family: $second-font-family !important;
+     text-transform: uppercase;
+     text-decoration: none !important;
+     font-size: 1em;
+     font-weight: 800;
+     color: $robot-color;
+     padding-top: 0.8em;
+   }*/
 }
-/* line 58, ../scss/moduls/_sections.scss */
-#web .panel .panel-body span {
-  margin: 15px;
-  margin-left: 4px;
+/* line 61, ../scss/moduls/_sections.scss */
+#web .well {
+  background: #ffffee;
+  border-bottom: solid 20px #002266;
 }
-/* line 65, ../scss/moduls/_sections.scss */
-#web .panel .b1, #web .panel .b2, #web .panel .b3, #web .panel .b4 {
-  text-align: center;
+/* line 66, ../scss/moduls/_sections.scss */
+#web .glyphicon-user, #web .glyphicon-th-list, #web .glyphicon-gift {
+  color: #0035a8;
+  font-size: 2.5em;
 }
 /* line 70, ../scss/moduls/_sections.scss */
 #web h4 {
+  padding: 25px;
   text-align: center;
 }
-/* line 74, ../scss/moduls/_sections.scss */
-#web .well {
-  background: #f2deda;
-  border-bottom: solid 20px #002266;
-}
-/* line 79, ../scss/moduls/_sections.scss */
-#web .glyphicon-thumbs-up {
-  color: #117788;
-  font-weight: 700;
-}
-/* line 84, ../scss/moduls/_sections.scss */
-#web .glyphicon-eye-open, #web .glyphicon-pencil {
-  color: #117788;
-  font-size: 40px;
+/* line 89, ../scss/moduls/_sections.scss */
+#web #word {
+  font-size: 1em;
+  font-weight: 800;
+  font-family: "Ubuntu", sans-serif;
+  color: #886611;
+  padding-top: 0.8em;
 }
 
-/* line 91, ../scss/moduls/_sections.scss */
-#server .panel {
+/* line 100, ../scss/moduls/_sections.scss */
+#servers .panel {
   padding: 25px;
   margin-bottom: 15px;
-  background: #f2f2f2;
+  background: #ffffee;
 }
-/* line 97, ../scss/moduls/_sections.scss */
-#server .panel .panel-body span {
+/* line 106, ../scss/moduls/_sections.scss */
+#servers .panel .panel-body span {
   margin: 15px;
   margin-left: 4px;
 }
-/* line 103, ../scss/moduls/_sections.scss */
-#server .panel .glyphicon-hdd, #server .panel .glyphicon-bell {
+/* line 112, ../scss/moduls/_sections.scss */
+#servers .panel .glyphicon-hdd, #servers .panel .glyphicon-bell {
   font-size: 40px;
   color: #0035a8;
 }
-/* line 109, ../scss/moduls/_sections.scss */
-#server .well {
-  background: #f2f2f2;
+/* line 118, ../scss/moduls/_sections.scss */
+#servers .well {
+  background: #ffffee;
 }
-/* line 113, ../scss/moduls/_sections.scss */
-#server h4 {
+/* line 122, ../scss/moduls/_sections.scss */
+#servers h4 {
   text-align: center;
 }
 
@@ -1844,24 +1853,22 @@ footer {
 /* line 3, ../scss/layouts/_header.scss */
 header {
   text-align: center;
-  background: #8899aa;
+  /*background:$SC;*/
 }
-/* line 7, ../scss/layouts/_header.scss */
-header .container {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-/* line 12, ../scss/layouts/_header.scss */
+/* line 9, ../scss/layouts/_header.scss */
 header .jumbotron {
-  background: #d7d9dd;
+  background: white;
   border-bottom: solid 20px #117788;
+  border-left: solid 5px #f2f2f2;
+  border-right: solid 5px #f2f2f2;
+  border-top: solid 5px #f2f2f2;
 }
-/* line 17, ../scss/layouts/_header.scss */
+/* line 20, ../scss/layouts/_header.scss */
 header svg {
   display: block;
   margin: 0 auto 20px;
 }
-/* line 22, ../scss/layouts/_header.scss */
+/* line 25, ../scss/layouts/_header.scss */
 header .intro-text .welcome {
   display: block;
   font-family: "Ubuntu", sans-serif;
@@ -1870,7 +1877,7 @@ header .intro-text .welcome {
   font-size: 2em;
   color: #117788;
 }
-/* line 31, ../scss/layouts/_header.scss */
+/* line 34, ../scss/layouts/_header.scss */
 header .intro-text .make {
   font-size: 1.25em;
   font-weight: 700;
@@ -1882,7 +1889,7 @@ header .intro-text .make {
 @media (min-width: 768px) {
   /* line 6, ../scss/layouts/_mobile.scss */
   header .container {
-    padding-top: 200px;
+    padding-top: 140px;
     padding-bottom: 100px;
   }
 
@@ -1904,7 +1911,7 @@ header .intro-text .make {
 /*----end header--------*/
 /*navbar*/
 @media (min-width: 768px) {
-  /* line 29, ../scss/layouts/_mobile.scss */
+  /* line 30, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
@@ -1912,7 +1919,7 @@ header .intro-text .make {
     transition: padding 0.3s;
   }
 
-  /* line 36, ../scss/layouts/_mobile.scss */
+  /* line 37, ../scss/layouts/_mobile.scss */
   .navbarfixed-top .navbar-brand {
     font-size: 2em;
     -webkit-transition: all 0.3s;
@@ -1920,12 +1927,12 @@ header .intro-text .make {
     transition: all 0.3s;
   }
 
-  /* line 43, ../scss/layouts/_mobile.scss */
+  /* line 44, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0;
   }
 
-  /* line 47, ../scss/layouts/_mobile.scss */
+  /* line 48, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
@@ -1933,18 +1940,23 @@ header .intro-text .make {
 /*-----end navbar---------*/
 /*sections*/
 @media (max-width: 768px) {
-  /* line 56, ../scss/layouts/_mobile.scss */
+  /* line 59, ../scss/layouts/_mobile.scss */
   section {
     padding: 75px 0;
   }
 
-  /* line 60, ../scss/layouts/_mobile.scss */
+  /* line 63, ../scss/layouts/_mobile.scss */
   section.first {
     padding-top: 75px;
   }
+
+  /* line 67, ../scss/layouts/_mobile.scss */
+  header .container {
+    padding-top: 100px;
+  }
 }
 @media screen and (max-width: 992px) {
-  /* line 67, ../scss/layouts/_mobile.scss */
+  /* line 74, ../scss/layouts/_mobile.scss */
   svg {
     display: block;
   }
@@ -1963,11 +1975,16 @@ header .intro-text .make {
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 16, ../scss/layouts/_nav.scss */
+/* line 17, ../scss/layouts/_nav.scss */
+.navbar a:hover,
+.navbar a:focus {
+  color: #f28f79 !important;
+}
+/* line 22, ../scss/layouts/_nav.scss */
 .navbar a.navbar-brand {
   font-size: 1.5em;
 }
-/* line 21, ../scss/layouts/_nav.scss */
+/* line 27, ../scss/layouts/_nav.scss */
 .navbar .navbar-nav {
   letter-spacing: 1px;
 }

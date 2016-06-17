@@ -5,34 +5,41 @@ section {
     margin: auto;
 
     h2 {
-        margin: 0;
+        margin: 60px 0 0 0;
         font-size:3em;
+    }
+
+    svg {
+        margin-top: 50px;
+        position: relative;
     }
 
 }
 
 #web, #network {
-  background-color:$second-color;
+  /*background-color:$second-color;*/
   color:$robot-color;
 
 }
 
 #data, #server, #about {
-   background-color: $data;
+   /*background-color: $data;*/
    color:$footer-color;
 }
 
 #data{
-  .panelD1, .panelD2, .panelD3 {
-        padding: 15px;
-        margin-bottom: 15px;
-        background: $robot-table2;
-        border-bottom: solid 20px $sixty-color;
-    }
-
     .well {
         background: $robot-table2;
         border-bottom: solid 20px $fire-color;
+    }
+
+    a {
+       color: $footer-color !important;
+       font-size: 0.8em;
+       font-weight: 800;
+       font-family: $second-font-family;
+       padding-top: 0.8em;
+       text-transform: uppercase;
     }
 
     h4 {
@@ -41,57 +48,59 @@ section {
     }
 
 
-    .glyphicon-tasks, .glyphicon-stats, .glyphicon-transfer {
-        color: $robot-eye2;
-        font-size: 40px;
+
+    .glyphicon-tasks, .glyphicon-stats, .glyphicon-transfer, .glyphicon-hdd {
+        color: $fire-color;
+        font-size: 2em;
     }
+
 }
 
 #web {
-    .panel{
-        padding: 15px;
-        margin-bottom: 15px;
-        background: $MSB;
-        border-bottom: solid 20px $seventh-color;
-
-        .panel-body {
-            span {
-                margin: 15px;
-                margin-left: 4px;
-            }
-        }
-
-
-        .b1, .b2, .b3, .b4 {
-            text-align: center;
-        }
-}
-
-    h4 {
-     text-align: center;
-    }
 
     .well {
-        background:$MSB;
+        background:$robot-table2;
         border-bottom: solid 20px $nav-color;
     }
 
-    .glyphicon-thumbs-up {
-        color: $sixty-color;
-        font-weight: 700;
+    .glyphicon-user, .glyphicon-th-list, .glyphicon-gift {
+        color: $robot-eye2;
+        font-size: 2.5em;
+    }
+    h4 {
+        padding: 25px;
+        text-align:center;
     }
 
-    .glyphicon-eye-open, .glyphicon-pencil {
-       color: $sixty-color;
-       font-size: 40px;
+       /*a,
+        a:hover,
+        a:focus {
+          font-family: $second-font-family !important;
+          text-transform: uppercase;
+          text-decoration: none !important;
+          font-size: 1em;
+          font-weight: 800;
+          color: $robot-color;
+          padding-top: 0.8em;
+        }*/
+
+
+
+    #word {
+        font-size: 1em;
+        font-weight: 800;
+        font-family: $second-font-family;
+        color: $robot-color;
+        padding-top: 0.8em;
     }
+
 }
 
-#server {
+#servers {
     .panel {
         padding: 25px;
         margin-bottom:15px;
-        background: $data-strip;
+        background: $robot-table2;
 
         .panel-body {
             span {
@@ -107,7 +116,7 @@ section {
     }
 
     .well {
-        background:$data-strip;
+        background:$robot-table2;
     }
 
     h4 {

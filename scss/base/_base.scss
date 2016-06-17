@@ -5,21 +5,17 @@ body {
     font-size: $base-font-size;
     color:$second-font-color;
     overflow-x: hidden;
-
-
-    a,
-    a:hover,
-    a:focus,
-    a:active,
-    a.active {
-     color: $light-font-color !important;
-     outline: none;
-    }
-
-
 }
 
-
+/*
+a:hover,
+a:focus,
+a:active,
+a.active {
+      color: $robot-button;
+      outline: none;
+     }
+*/
 svg {
     width: 100%;
 }
