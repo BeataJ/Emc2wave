@@ -1,11 +1,12 @@
 /*mobile*/
 
 
-/*header*/
+
 @media (min-width: 768px){
+
+    /*header*/
     header .container {
         padding-top: 140px;
-        padding-bottom: 100px;
     }
 
     header .intro-text .welcome {
@@ -16,18 +17,15 @@
         font-size: 1.75em;
     }
 
+    /*----end header--------*/
+
    section {
        font-size: 1em;
 
     }
-}
-/*----end header--------*/
 
-
-/*navbar*/
-
-@media(min-width: 768px){
-    .navbar-fixed-top {
+    /*navbar*/
+     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
@@ -48,33 +46,131 @@
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+    /*-----end navbar---------*/
 
 
 }
-/*-----end navbar---------*/
+
+
 
 /*sections*/
 
-@media (max-width: 768px){
-    section {
-        padding: 75px 0;
-    }
 
-    section.first {
-        padding-top: 75px;
-    }
 
-    header .container {
-        padding-top: 100px;
-    }
-}
-
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
 
     svg {
         display: block;
     }
 
+    #data{
+       .s-data{
+
+           margin-top: -.5em !important;
+           margin-bottom: 1em !important;
+        }
+
+     h3 {
+            font-size: 1em !important;
+        }
+
+
+    }
+
+    #web {
+        .s-web{
+           margin-top: -.8em !important;
+           margin-bottom: 1em !important;
+        }
+    }
+
+    #servers {
+        .s-server {
+            margin-top: -2.2em !important;
+            margin-bottom: 1em !important;
+
+        }
+    }
+
+    #networks {
+        .s-network {
+            margin-top: -2em !important;
+
+        }
+    }
+
+    footer {
+        padding: .3em 0;
+        height: 6em;
+
+        /*
+        .fa-lg {
+            font-size: .8em;
+        }*/
+    }
 }
 
 
+@media (max-width: 768px){
+   /*
+    header .intro-text .make {
+        font-size: .8em !important;
+    }*/
+
+    header .container {
+        padding-top: 100px;
+    }
+
+    section  {
+        h2 {
+            font-size: 2em;
+        }
+    }
+
+    .glyphicon-tasks, .glyphicon-stats, .glyphicon-transfer, .glyphicon-hdd {
+        font-size: 1.4em !important;
+        }
+
+    footer {
+        h4 {
+        font-size: .8em;
+        }
+    }
+
+    }
+
+
+
+@media (max-width: 440px){
+    #data {
+        h3 {
+            font-size: .7em !important;
+        }
+    }
+}
+
+@media (max-width: 375px){
+    #data {
+        h3 {
+            font-size: .6em !important;
+        }
+    }
+}
+
+
+@media (max-width: 360px){
+    #data {
+        h3 {
+            font-size: .5em !important;
+        }
+    }
+}
+
+
+@media(max-width: 320px){
+   #data {
+        h3 {
+            font-size: .4em !important;
+        }
+    }
+}

@@ -1,8 +1,27 @@
 /*_footer.scss*/
 
 footer {
-    padding: 25px 0;
+    background-color:$second-color;
+    height: 5em;
+    padding: 1.3em 0;
     text-align: center;
-    background-color: $footer-color;
+    color:$seventh-color;
+    h4 {
+       text-transform:none!important;
+    }
+
+    i {
+        color:$seventh-color;
+        background-color: $robot-table2;
+        border: solid 2px $seventh-color;
+        border-radius: 100%;
+        transition: all .3s ease-in-out;
+    }
+
+    i:hover, i:focus {
+        color:  $robot-table2;
+        background-color:$seventh-color;
+    }
+
 
 }

@@ -13,17 +13,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-/* line 9, ../scss/base/_normalize.scss */
+/* line 7, ../scss/base/_normalize.scss */
+button {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 12, ../scss/base/_normalize.scss */
 .glyphicon.glyphicon-fire {
   color: #993322;
   font-size: 2.5em;
   margin: 20px auto 30px auto;
-}
-
-/* line 15, ../scss/base/_normalize.scss */
-.s-data, .s-web, .s-networks, .s-server, .s-about {
-  margin-right: 50px;
-  margin-bottom: 50px;
 }
 
 /*_base.scss*/
@@ -1726,38 +1726,25 @@ line {
 /*_sections.scss*/
 /* line 3, ../scss/moduls/_sections.scss */
 section {
-  padding: 50px 0;
-  margin: auto;
+  padding-top: 5em;
+  /*margin-top: 2em;*/
 }
 /* line 7, ../scss/moduls/_sections.scss */
 section h2 {
-  margin: 60px 0 0 0;
   font-size: 3em;
 }
-/* line 12, ../scss/moduls/_sections.scss */
-section svg {
-  margin-top: 50px;
-  position: relative;
+
+/* line 14, ../scss/moduls/_sections.scss */
+#networks, #web {
+  color: #993322;
 }
 
-/* line 19, ../scss/moduls/_sections.scss */
-#web, #network {
-  /*background-color:$second-color;*/
-  color: #886611;
-}
-
-/* line 25, ../scss/moduls/_sections.scss */
-#data, #server, #about {
-  /*background-color: $data;*/
-  color: #3d424c;
-}
-
-/* line 31, ../scss/moduls/_sections.scss */
+/* line 20, ../scss/moduls/_sections.scss */
 #data .well {
   background: #ffffee;
   border-bottom: solid 20px #993322;
 }
-/* line 36, ../scss/moduls/_sections.scss */
+/* line 25, ../scss/moduls/_sections.scss */
 #data a {
   color: #3d424c !important;
   font-size: 0.8em;
@@ -1766,87 +1753,174 @@ section svg {
   padding-top: 0.8em;
   text-transform: uppercase;
 }
-/* line 45, ../scss/moduls/_sections.scss */
+/* line 34, ../scss/moduls/_sections.scss */
 #data h4 {
-  padding: 25px;
+  padding: 2em;
   text-align: center;
 }
-/* line 52, ../scss/moduls/_sections.scss */
+/* line 39, ../scss/moduls/_sections.scss */
+#data h3 {
+  font-size: 1.1em;
+}
+/* line 43, ../scss/moduls/_sections.scss */
 #data .glyphicon-tasks, #data .glyphicon-stats, #data .glyphicon-transfer, #data .glyphicon-hdd {
   color: #993322;
-  font-size: 2em;
+  font-size: 3em;
+}
+/* line 48, ../scss/moduls/_sections.scss */
+#data .s-data {
+  margin-top: 5em;
 }
 
-/* line 59, ../scss/moduls/_sections.scss */
-#web {
-  /*a,
-   a:hover,
-   a:focus {
-     font-family: $second-font-family !important;
-     text-transform: uppercase;
-     text-decoration: none !important;
-     font-size: 1em;
-     font-weight: 800;
-     color: $robot-color;
-     padding-top: 0.8em;
-   }*/
-}
-/* line 61, ../scss/moduls/_sections.scss */
+/* line 55, ../scss/moduls/_sections.scss */
 #web .well {
   background: #ffffee;
   border-bottom: solid 20px #002266;
 }
-/* line 66, ../scss/moduls/_sections.scss */
+/* line 60, ../scss/moduls/_sections.scss */
 #web .glyphicon-user, #web .glyphicon-th-list, #web .glyphicon-gift {
   color: #0035a8;
-  font-size: 2.5em;
+  font-size: 3em;
 }
-/* line 70, ../scss/moduls/_sections.scss */
+/* line 64, ../scss/moduls/_sections.scss */
 #web h4 {
-  padding: 25px;
+  padding: 1em;
   text-align: center;
 }
-/* line 89, ../scss/moduls/_sections.scss */
+/* line 71, ../scss/moduls/_sections.scss */
 #web #word {
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 800;
   font-family: "Ubuntu", sans-serif;
-  color: #886611;
+  color: #993322;
   padding-top: 0.8em;
 }
+/* line 79, ../scss/moduls/_sections.scss */
+#web #wordColor {
+  color: #002266;
+}
+/* line 83, ../scss/moduls/_sections.scss */
+#web .panel-body {
+  background-color: #f2f2f2;
+}
+/* line 87, ../scss/moduls/_sections.scss */
+#web .panel {
+  background-color: #ccdcff;
+}
+/* line 91, ../scss/moduls/_sections.scss */
+#web .s-web {
+  margin-top: 2em;
+}
 
-/* line 100, ../scss/moduls/_sections.scss */
-#servers .panel {
-  padding: 25px;
-  margin-bottom: 15px;
-  background: #ffffee;
-}
-/* line 106, ../scss/moduls/_sections.scss */
-#servers .panel .panel-body span {
-  margin: 15px;
-  margin-left: 4px;
-}
-/* line 112, ../scss/moduls/_sections.scss */
-#servers .panel .glyphicon-hdd, #servers .panel .glyphicon-bell {
-  font-size: 40px;
-  color: #0035a8;
-}
-/* line 118, ../scss/moduls/_sections.scss */
+/* line 98, ../scss/moduls/_sections.scss */
 #servers .well {
   background: #ffffee;
+  border-bottom: solid 20px #d8b5ad;
 }
-/* line 122, ../scss/moduls/_sections.scss */
-#servers h4 {
-  text-align: center;
+/* line 103, ../scss/moduls/_sections.scss */
+#servers .glyphicon-hand-up {
+  font-size: 2.5em;
+  color: #002266;
+}
+/* line 108, ../scss/moduls/_sections.scss */
+#servers .glyphicon-hdd, #servers .glyphicon-log-in, #servers .glyphicon-flag {
+  font-size: 2.5em;
+  color: #117788;
+}
+/* line 114, ../scss/moduls/_sections.scss */
+#servers span {
+  margin-top: 0.3em;
+}
+/* line 118, ../scss/moduls/_sections.scss */
+#servers #title {
+  font-size: 1em;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+}
+/* line 125, ../scss/moduls/_sections.scss */
+#servers #other {
+  color: #993322;
+}
+/* line 131, ../scss/moduls/_sections.scss */
+#servers .list-group-item {
+  background-color: #d8b5ad;
+}
+/* line 134, ../scss/moduls/_sections.scss */
+#servers a.list-group-item:focus, #servers a.list-group-item:hover, #servers button.list-group-item:focus, #servers button.list-group-item:hover {
+  color: #002266;
+  text-decoration: none;
+  background-color: #f2f2f2;
+}
+/* line 140, ../scss/moduls/_sections.scss */
+#servers .modal-body {
+  background-color: #f2f2f2;
+}
+
+/* line 146, ../scss/moduls/_sections.scss */
+#networks .well {
+  background: #ffffee;
+  border-bottom: solid 20px #d7d9dd;
+}
+/* line 151, ../scss/moduls/_sections.scss */
+#networks .panel-heading {
+  background-color: #d7d9dd;
+}
+/* line 156, ../scss/moduls/_sections.scss */
+#networks .panel-body {
+  background-color: #ccdcff;
+}
+/* line 160, ../scss/moduls/_sections.scss */
+#networks button {
+  font-size: .9em;
+}
+/* line 164, ../scss/moduls/_sections.scss */
+#networks .row {
+  margin-top: .5em;
+}
+/* line 168, ../scss/moduls/_sections.scss */
+#networks .s-network {
+  margin-top: 8em;
+}
+
+/* line 174, ../scss/moduls/_sections.scss */
+#about .well {
+  border-bottom: solid 20px #8899aa;
+}
+/* line 178, ../scss/moduls/_sections.scss */
+#about #sec {
+  margin-top: 3em;
+}
+/* line 182, ../scss/moduls/_sections.scss */
+#about #firs {
+  margin-top: 2em;
 }
 
 /*Layouts - Page layout style*/
 /*_footer.scss*/
 /* line 3, ../scss/layouts/_footer.scss */
 footer {
-  padding: 25px 0;
+  background-color: #aaccdd;
+  height: 5em;
+  padding: 1.3em 0;
   text-align: center;
-  background-color: #3d424c;
+  color: #7f4b3f;
+}
+/* line 9, ../scss/layouts/_footer.scss */
+footer h4 {
+  text-transform: none!important;
+}
+/* line 13, ../scss/layouts/_footer.scss */
+footer i {
+  color: #7f4b3f;
+  background-color: #ffffee;
+  border: solid 2px #7f4b3f;
+  border-radius: 100%;
+  transition: all .3s ease-in-out;
+}
+/* line 21, ../scss/layouts/_footer.scss */
+footer i:hover, footer i:focus {
+  color: #ffffee;
+  background-color: #7f4b3f;
 }
 
 /*header*/
@@ -1885,33 +1959,31 @@ header .intro-text .make {
 }
 
 /*mobile*/
-/*header*/
 @media (min-width: 768px) {
-  /* line 6, ../scss/layouts/_mobile.scss */
+  /*header*/
+  /* line 8, ../scss/layouts/_mobile.scss */
   header .container {
     padding-top: 140px;
-    padding-bottom: 100px;
   }
 
-  /* line 11, ../scss/layouts/_mobile.scss */
+  /* line 12, ../scss/layouts/_mobile.scss */
   header .intro-text .welcome {
     font-size: 4.75em;
   }
 
-  /* line 15, ../scss/layouts/_mobile.scss */
+  /* line 16, ../scss/layouts/_mobile.scss */
   header .intro-text .make {
     font-size: 1.75em;
   }
 
-  /* line 19, ../scss/layouts/_mobile.scss */
+  /*----end header--------*/
+  /* line 22, ../scss/layouts/_mobile.scss */
   section {
     font-size: 1em;
   }
-}
-/*----end header--------*/
-/*navbar*/
-@media (min-width: 768px) {
-  /* line 30, ../scss/layouts/_mobile.scss */
+
+  /*navbar*/
+  /* line 28, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
@@ -1919,7 +1991,7 @@ header .intro-text .make {
     transition: padding 0.3s;
   }
 
-  /* line 37, ../scss/layouts/_mobile.scss */
+  /* line 35, ../scss/layouts/_mobile.scss */
   .navbarfixed-top .navbar-brand {
     font-size: 2em;
     -webkit-transition: all 0.3s;
@@ -1927,38 +1999,109 @@ header .intro-text .make {
     transition: all 0.3s;
   }
 
-  /* line 44, ../scss/layouts/_mobile.scss */
+  /* line 42, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0;
   }
 
-  /* line 48, ../scss/layouts/_mobile.scss */
+  /* line 46, ../scss/layouts/_mobile.scss */
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-}
-/*-----end navbar---------*/
-/*sections*/
-@media (max-width: 768px) {
-  /* line 59, ../scss/layouts/_mobile.scss */
-  section {
-    padding: 75px 0;
-  }
 
-  /* line 63, ../scss/layouts/_mobile.scss */
-  section.first {
-    padding-top: 75px;
+  /*-----end navbar---------*/
+}
+/*sections*/
+@media (max-width: 992px) {
+  /* line 62, ../scss/layouts/_mobile.scss */
+  svg {
+    display: block;
   }
 
   /* line 67, ../scss/layouts/_mobile.scss */
+  #data .s-data {
+    margin-top: -0.5em !important;
+    margin-bottom: 1em !important;
+  }
+  /* line 73, ../scss/layouts/_mobile.scss */
+  #data h3 {
+    font-size: 1em !important;
+  }
+
+  /* line 81, ../scss/layouts/_mobile.scss */
+  #web .s-web {
+    margin-top: -0.8em !important;
+    margin-bottom: 1em !important;
+  }
+
+  /* line 88, ../scss/layouts/_mobile.scss */
+  #servers .s-server {
+    margin-top: -2.2em !important;
+    margin-bottom: 1em !important;
+  }
+
+  /* line 96, ../scss/layouts/_mobile.scss */
+  #networks .s-network {
+    margin-top: -2em !important;
+  }
+
+  /* line 102, ../scss/layouts/_mobile.scss */
+  footer {
+    padding: .3em 0;
+    height: 6em;
+    /*
+    .fa-lg {
+        font-size: .8em;
+    }*/
+  }
+}
+@media (max-width: 768px) {
+  /*
+   header .intro-text .make {
+       font-size: .8em !important;
+   }*/
+  /* line 120, ../scss/layouts/_mobile.scss */
   header .container {
     padding-top: 100px;
   }
+
+  /* line 125, ../scss/layouts/_mobile.scss */
+  section h2 {
+    font-size: 2em;
+  }
+
+  /* line 130, ../scss/layouts/_mobile.scss */
+  .glyphicon-tasks, .glyphicon-stats, .glyphicon-transfer, .glyphicon-hdd {
+    font-size: 1.4em !important;
+  }
+
+  /* line 135, ../scss/layouts/_mobile.scss */
+  footer h4 {
+    font-size: .8em;
+  }
 }
-@media screen and (max-width: 992px) {
-  /* line 74, ../scss/layouts/_mobile.scss */
-  svg {
-    display: block;
+@media (max-width: 440px) {
+  /* line 146, ../scss/layouts/_mobile.scss */
+  #data h3 {
+    font-size: .7em !important;
+  }
+}
+@media (max-width: 375px) {
+  /* line 154, ../scss/layouts/_mobile.scss */
+  #data h3 {
+    font-size: .6em !important;
+  }
+}
+@media (max-width: 360px) {
+  /* line 163, ../scss/layouts/_mobile.scss */
+  #data h3 {
+    font-size: .5em !important;
+  }
+}
+@media (max-width: 320px) {
+  /* line 172, ../scss/layouts/_mobile.scss */
+  #data h3 {
+    font-size: .4em !important;
   }
 }
 /*Navbar*/
@@ -1975,16 +2118,29 @@ header .intro-text .make {
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 17, ../scss/layouts/_nav.scss */
+/* line 18, ../scss/layouts/_nav.scss */
 .navbar a:hover,
 .navbar a:focus {
   color: #f28f79 !important;
 }
 /* line 22, ../scss/layouts/_nav.scss */
+.navbar .navbar-nav > .active > a {
+  border-radius: 3%;
+  color: #fff;
+  background-color: #fed136;
+}
+/* line 30, ../scss/layouts/_nav.scss */
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #fed136;
+}
+/* line 35, ../scss/layouts/_nav.scss */
 .navbar a.navbar-brand {
   font-size: 1.5em;
+  color: #fed136 !important;
 }
-/* line 27, ../scss/layouts/_nav.scss */
+/* line 41, ../scss/layouts/_nav.scss */
 .navbar .navbar-nav {
   letter-spacing: 1px;
 }

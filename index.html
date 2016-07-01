@@ -19,6 +19,8 @@
 		<link href="css/main.css" rel="stylesheet">
 
         <!--custom fonts-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+
          <!--nav-->
            <!--headers,nav-->
         <link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
@@ -29,9 +31,9 @@
         <link rel="stylesheet" href="css/animate.min.css"a>
     </head>
     
-    <body id="page-top">
+    <body id="page-top" class="index">
         <!-- Navigation -->
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav  id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -42,7 +44,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>  
-            <a class="navbar-brand page-scroll animated infinite pulse" href="#">Emc2wave</a>
+            <a class="navbar-brand page-scroll animated infinite pulse" href="#page-top">Emc2wave</a>
          </div><!--/.navbar-header -->
           
          <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,20 +55,20 @@
              </li>
 
 
-             <li class>
-                 <a class="page-scroll" href="#data">Data</a>
+             <li class="page-scroll">
+                 <a  href="#data">Data</a>
              </li>
-             <li class>
-                 <a class="page-scroll" href="#web">Web</a>
+             <li class="page-scroll">
+                 <a  href="#web">Web</a>
               </li>
-              <li class>
-                 <a class="page-scroll" href="#servers">Servers</a>
+              <li class="page-scroll">
+                 <a  href="#servers">Servers</a>
               </li>
-               <li class>
-                 <a class="page-scroll" href="#network">Network</a>
+               <li class="page-scroll">
+                 <a href="#networks">Networks</a>
               </li>
-              <li class>
-                <a class="page-scroll" href="#about">About</a>
+              <li class="page-scroll">
+                <a  href="#about">About</a>
               </li>
             </ul>
            </div><!--/.navbar-collapse-->
@@ -143,7 +145,7 @@
                       </svg>
 
                     <div class="intro-text">
-                       <span class="welcome">Welcome!</span>
+                       <span class="welcome animated infinite bounce">Welcome!</span>
                         <div>
                         <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
                         </div>
@@ -159,14 +161,14 @@
            <div class="container">
             <div class="row">
                <div class="col-lg-12 text-center">
-                 <h2>Data</h2>
+                 <h2 class="animated fadeInRightBig">Data</h2>
 
                </div>
             </div>
 
              <div class="well">
                <div class="row">
-                <div class="col-md-6 img-responsive center-block">
+                <div class="col-md-6 img-responsive center-block s-data">
                     <svg viewbox="0 0 400 250" height="250" width="400" version="1.1" xmlns="http://www.w3.org/TR/SVG11/" class="s-data">
                        <g transform="translate(48,100)">
                         <line x1="150" y1="25" x2="150" y2="50" id="top-line"/>
@@ -191,20 +193,20 @@
                    <div>
 
                       <!-- Nav tabs -->
-                      <ul class="nav nav-tabs" role="tablist">
+                      <ul class="nav nav-tabs tabs1" role="tablist">
 
-                       <li role="presentation" class="active"><a href="#data1" aria-controls="data1" role="tab" data-toggle="tab"><div class="text-center"><span class="glyphicon glyphicon-hdd"></span></div>Data</a></li>
+                       <li role="presentation" class="active"><a href="#data1" aria-controls="data1" role="tab" data-toggle="tab"><div class="text-center"><span class="glyphicon glyphicon-hdd"></span></div><h3>Data</h3></a></li>
 
-                        <li role="presentation"><a href="#servers2" aria-controls="servers2" role="tab" data-toggle="tab"><div class="text-center"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span></div>Servers</a></li>
+                        <li role="presentation"><a href="#servers2" aria-controls="servers2" role="tab" data-toggle="tab"><div class="text-center"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span></div><h3>Servers</h3></a></li>
 
-                        <li role="presentation"><a href="#convert" aria-controls="convert" role="tab" data-toggle="tab"><div class="text-center"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span></div>Convert</a></li>
+                        <li role="presentation"><a href="#convert" aria-controls="convert" role="tab" data-toggle="tab"><div class="text-center"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span></div><h3>Convert</h3></a></li>
 
-                        <li role="presentation"><a href="#analyze" aria-controls="analyze" role="tab" data-toggle="tab"><div class="text-center"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></div>Analyze</a></li>
+                        <li role="presentation"><a href="#analyze" aria-controls="analyze" role="tab" data-toggle="tab"><div class="text-center"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></div><h3>Analyze</h3></a></li>
                       </ul>
 
                       <!-- Tab panes -->
                       <div class="tab-content">
-                       <div role="tabpanel" class="tab-pane active" id="data1">
+                       <div role="tabpanel" class="tab-pane active"  id="data1">
                         <p></p>
                          <p>Data is everywhere, small chunks, bigger and huge amount of data. </p>
                          <p>They can be organized in  text or data files, spreadsheets or even database software (database servers)  to provide shared access to online customers.</p>
@@ -270,13 +272,13 @@
 
                <div class="row">
                  <div class="col-lg-12 text-center">
-                   <h2>web</h2>
+                   <h2 class="animated fadeInRightBig">web</h2>
 
                  </div>
                </div>
               <div class="well">
                 <div class="row">
-                 <div class="col-md-6 img-responsive center-block">
+                 <div class="col-md-6 img-responsive center-block s-web">
                    <svg viewbox="0 0 400 250" height="250" width="400" version="1.1" xmlns="http://www.w3.org/TR/SVG" class="s-web">
                       <g transform="translate(-10,80)">
                        <polygon points="30,145 40,130 60,130" id="lamp-footA"/>
@@ -314,7 +316,7 @@
                  </div>
                  <div class="col-md-6">
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                      <div class="panel panel-default">
+                      <div class="panel">
                         <div class="panel-heading" role="tab" id="visitor">
                           <h4 class="panel-title">
                             <a  role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -325,18 +327,19 @@
                         <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="visitor">
                           <div class="panel-body">
                            <p>As you noticed, web technology is almost everywhere.</p>
-                           <p>You visited millions of websites of different category and possibly wondering to build website for yourself, your small business or organization.</p>
+                           <p id="wordColor">You visited millions of websites of different category and possibly wondering to build website for yourself, your small business or organization.</p>
+                           <hr>
                            <p>There is overwhelming choice of web technology and tools including:</p>
                             <ul>
-                                <li>standard html/css/java script websites including static pages,</li>
-                                <li>content management systems like wordpress, drupal, joomla and others,</li>
-                                <li>custom applications made using popular framework in different programming languages (php- codeigniter, cakephp, python-flask, django, ruby – ruby on rails),</li>
+                                <li id="wordColor">standard html/css/java script websites including static pages,</li>
+                                <li >content management systems like wordpress, drupal, joomla and others,</li>
+                                <li id="wordColor">custom applications made using popular framework in different programming languages (php- codeigniter, cakephp, python-flask, django, ruby – ruby on rails),</li>
                                 <li>other custom made applications.</li>
                             </ul>
                           </div>
                         </div>
                       </div>
-                      <div class="panel panel-default">
+                      <div class="panel">
                         <div class="panel-heading" role="tab" id="layout">
                           <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -350,22 +353,22 @@
                             <ul>
                                 <li>modern (it means we can adapt some elements and trends HTML5/CSS3 and javascript frameworks).
                                 <p>We want to make sure that website would be properly rendered in different browsers,</p></li>
-                                <li>readable by mobile devices.
+                                <li id="wordColor">readable by mobile devices.
                                 <p>Website we build look nice in different mobile devices (cell phones, tablets). No black tricks, no magic, just simple css techniques,</p> </li>
                                 <li>searchable and optimized for search engines.
                                 <p>What is means?</p>
-                                <p>Can you imagine that your website is being read by web crawlers and they see your website as text.</p>
+                                <p id="wordColor">Can you imagine that your website is being read by web crawlers and they see your website as text.</p>
                                 <p>However they can recognize common html elements, index them and collect information about each site.</p>
-                                <p>If your website is more complex (contains lot of pages)  the works seems to be more complex and we need to help web crawlers to help organize information about structure. </p>
+                                <p id="wordColor">If your website is more complex (contains lot of pages)  the works seems to be more complex and we need to help web crawlers to help organize information about structure. </p>
                                 <p>We can apply different search engine optimization techniques causing you website would be displayed in search engine.</p>
                                 <p>We don’t believe in such kind of possibility to index your website on top of search results. This is a process and we can make it more simplified,</p></li>
-                                <li>social.
+                                <li id="wordColor">social.
                                 <p>We can make links from your website to popular platforms like Facebook, twitter, Google plus or other.</p></li>
                             </ul>
                           </div>
                         </div>
                       </div>
-                      <div class="panel panel-default">
+                      <div class="panel">
                         <div class="panel-heading" role="tab" id="custom">
                           <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -377,10 +380,10 @@
                           <div class="panel-body">
                            <p>Also we can build custom made web applications using web frameworks or content management systems. But the cost related to build such applications is higher.</p>
                             <hr>
-                            <p>Building website is not yet complete process.</p>
-                            <p>You need to have domain, web hosting and sometimes SSL certificate(in case you have website like online store that need to send sensitive data between a browser and server).</p>
+                            <p id="wordColor">Building website is not yet complete process.</p>
+                            <p id="wordColor">You need to have domain, web hosting and sometimes SSL certificate(in case you have website like online store that need to send sensitive data between a browser and server).</p>
                             <p>This is very important to have name of your website as it will be your domain name. We offer wide range of domains for your websites so you can purchase it directly from us.</p>
-                             <p>Once, we finish building website for our customers we can help customers to make those decision and even though we can setup hosting environment for you and settle website.</p>
+                             <p id="wordColor">Once, we finish building website for our customers we can help customers to make those decision and even though we can setup hosting environment for you and settle website.</p>
                              <hr>
                              <p>One everything is good you can enjoy your website. If necessary, we can also make occasional website upgrades.</p>
 
@@ -402,12 +405,12 @@
            <div class="container">
                <div class="row">
                  <div class="col-lg-12 text-center">
-                   <h2>Servers</h2>
+                   <h2 class="animated  fadeInRightBig">Servers</h2>
                  </div>
                </div>
              <div class="well">
                <div class="row">
-                 <div class="col-md-6 img-responsive center-block">
+                 <div class="col-md-6 img-responsive center-block s-server">
                     <svg viewbox="0 0 400 250" height="250" width="400" version="1.1" xmlns="http://www.w3.org/TR/SVG" class="s-server">
                        <g id="comp-cloud">
                         <ellipse cx="200" cy="120" rx="170" ry="50" />
@@ -452,70 +455,121 @@
                     </svg>
                  </div>
                  <div class="col-md-6">
-                    <div class="list-group">
-                      <a href="#" class="list-group-item" data-toggle="modal" data-target=".bs-example-modal-lg">
-                        <h4 class="list-group-item-heading">As DevOps specialists we deal </h4>
-                        <p class="list-group-item-text">with different operating systems for servers and desktops....</p>
-                        <p class="text-center"><span class="glyphicon glyphicon-hand-up"></span></p>
-                      </a>
-                     <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-                      <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="gridSystemModalLabel"></h4>
-                          </div>
-                          <div class="modal-body">
-                             <p> We like variety of OS’s as they provide different tools and approach to system administration.</p>
 
-                             <p>We like variety of OS’s as they provide different tools and approach to system administration. </p>
-                             <p>We use Windows, Mac OS, Linux on workstations to develop applications and help clients to administer their servers.</p>
-                             <p>The recent versions of operating systems get more and more complex as new tools methodology are being introduced.</p>
-                            <p>For example Linux recently introduced new binaries to manage processes called systemd and new type of system firewall named firewalld that change totally philosophy to processes management and firewall rules.</p>
-                            <p>Also, Windows 2012 doesn’t seems to be easy to manage as new tools and security measures were introduced to protect system resources.</p>
-                            <p>Also, we realize that system administrations doesn’t mean only periodic servers checks as some service providers do. This is a complex tasks to:</p>
+                   <div class="list-group">
+                       <button type="button" class="list-group-item" data-toggle="modal" data-target="#Sys_oper"><div class="text-center"><span class="glyphicon glyphicon-hand-up"></span></div><div class="text-center" id="title"><h4>Operating Systems</h4></div></button>
+                      <div class="modal fade" id="Sys_oper" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <div class="text-center"><span class="glyphicon glyphicon-hdd"></span>
+                                <h4 class="modal-title" id="myModalLabel">Operating Systems</h4>
+                                </div>
 
+                              </div>
+                              <div class="modal-body">
+                                <h4>As DevOps specialists we deal with different operating systems for servers and desktops.</h4>
+                                <p>We like variety of OS’s as they provide different tools and approach to system administration.</p>
+                                <p>We use Windows, Mac OS, Linux on workstations to develop applications and help clients to administer their servers.</p>
+                                <p id="other">The recent versions of operating systems get more and more complex as new tools methodology are being introduced.</p>
+                                <p id="other">For example Linux recently introduced new binaries to manage processes called systemd and new type of system firewall named firewalld that change totally philosophy to processes management and firewall rules.</p>
+                                <p>Also, Windows 2012 doesn’t seems to be easy to manage as new tools and security measures were introduced to protect system resources.</p>
+                                <p>Also, we realize that system administrations doesn’t mean only periodic servers checks as some service providers do. This is a complex tasks to:</p>
+                                <ul id="other">
+                                    <li>manage processes and applications on the servers,</li>
+                                    <li>manage users and their permissions to resources,</li>
+                                    <li>monitor users activity, network traffic and security,</li>
+                                    <li>manage security policies, install patches and updates,</li>
+                                    <li>create backup of resources,</li>
+                                    <li>project and advise for system grows.</li>
+                                </ul>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                       <a href="#" class="list-group-item">
-                        <h4 class="list-group-item-heading">List group item heading</h4>
-                        <p class="list-group-item-text">...</p>
-                      </a>
-                    </div>
-                    <div class="list-group">
-                      <a href="#" class="list-group-item">
-                        <h4 class="list-group-item-heading">List group item heading</h4>
-                        <p class="list-group-item-text">...</p>
-                      </a>
+
+                      <button type="button" class="list-group-item" data-toggle="modal" data-target="#Sys_admin"><div class="text-center"><span class="glyphicon glyphicon-hand-up"></span></div><div id="title" class="text-center"><h4>Servers administrations</h4></div></button>
+                      <div class="modal fade" id="Sys_admin" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <div class="text-center"><span class="glyphicon glyphicon-log-in"></span>
+                                <h4 class="modal-title" id="myModalLabel">Servers administrations</h4>
+                                  </div>
+
+                              </div>
+                              <div class="modal-body">
+                                <p>We help businesses to make this process simpler as we provide cheaper fully managed services or partially managed services for servers administrations.</p>
+                                <p>We gained knowledge and valuable experience to administer servers running on Linux, Unix and Windows (Windows 2008, 2012 R2 editions) so at this time we support the following operating systems with related versions:</p>
+                                <ul id="other">
+                                    <li>Linux servers free open source distributions -CentOS, Fedora, Debian, Ubuntu, Open-SUSE, Slackware,</li>
+                                    <li>Unix BSD servers – FreeBSD, OpenBSD, NetBSD,</li>
+                                    <li>Windows Servers (2003,2008 including R2, 2012 including R2),</li>
+                                    <li>VMWare and cloud computing.</li>
+                                </ul>
+                                <p>We don’t provide any support for desktop operating systems at this time. </p>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      <button type="button" class="list-group-item" data-toggle="modal" data-target="#Sys_services"><div class="text-center"><span class="glyphicon glyphicon-hand-up"></span></div><div id="title" class="text-center"><h4>services related to system administration</h4></div></button>
+                      <div class="modal fade" id="Sys_services" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                               <div class="text-center"><span class="glyphicon glyphicon-flag"></span>
+                                <h4 class="modal-title" id="myModalLabel">services related to system administration</h4>
+                                </div>
+
+                              </div>
+                              <div class="modal-body">
+                                <p>This is a list of services related to system administration:</p>
+                                <ul>
+                                    <li id="other">install operating systems and necessary roles like for example Active Directory, DNS, Web server, Database server, FTP server etc,</li>
+                                    <li>manage users, system privileges and security policies,</li>
+                                    <li id="other">troubleshoot server performance or fix the problem related to system services, storage, networking etc,</li>
+                                    <li>monitor and audit systems for any upcoming issues,</li>
+                                    <li id="other">create cloud environment and migrate servers and resources to cloud  (Amazon, or other platform),</li>
+                                    <li>set application infrastructure on cloud environment. </li>
+                                </ul>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                     </div>
 
-                    <div class="list-group">
-                      <a href="#" class="list-group-item">
-                        <h4 class="list-group-item-heading">List group item heading</h4>
-                        <p class="list-group-item-text">...</p>
-                      </a>
-                    </div>
-
+                  </div>
                 </div>
-               </div>
                </div>
 
             </div>
           </section>
 
-       <section id="network">
+       <section id="networks">
            <div class="container">
                <div class="row">
                  <div class="col-lg-12 text-center">
-                   <h2>Networks</h2>
-                   <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                   <h2 class="animated  fadeInRightBig">Networks</h2>
                  </div>
                </div>
 
+              <div class="well">
                <div class="row">
-                 <div class="col-md-6 im img-responsive center-block">
+                 <div class="col-md-6 im img-responsive center-block s-network">
                     <svg viewbox="0 0 400 250" height="250" width="400" version="1.1" xmlns="http://www.w3.org/TR/SVG" class="s-networks">
                       <line x1="200" y1="100" x2="40" y2="210" id="LA"/>
                       <line x1="200" y1="100" x2="90" y2="120" id="LB"/>
@@ -540,21 +594,46 @@
                      </svg>
                  </div>
                  <div class=" col-md-6">
-                     <h3>.....Hmm,  we said networks. That’s true.</h3>
-                    <p>However this is broad terminology but we specializing in supporting some network technologies and focusing on servers as the part of network. This in particular refers to open source operating systems
-like Linux and Unix. They are so popular within organizations and bigger data centers for lower costs and gain more popularity (http://w3techs.com/technologies/details/os-linux/all/all).</p>
-                    <p></p>
-                    <p>As Linux/Unix specialists we help businesses to struggle with:</p>
-                    <ul>
-                        <li>server installation and post configurations. We love all free linux distributions for servers (CentOs, fedora, Debian, Ubuntu) and Unix BSD for most of applications and services(dns, web server, database Server, Application server, FTP etc),</li>
-                        <li>
-                         problems with slow performance, applications bugs and security holes,
-                        </li>
-                        <li>Linux security. Hmm,  there is a lot of talks which operating system is secure. None of them are secure. The system is as secure as how much efforts you put into securing. But, we are here to help! Bang Bang and problem solved,</li>
-                        <li>network configuration(routers and switches), troubleshooting and configuration tuning. We use specialized tools and can tell you in human language what’s wrong and we fix it.</li>
-                    </ul>
+                    <div class="panel">
+                      <div class="panel-heading">
+                        <h3 class="panel-title text-center"><h4>We said networks. That’s true.</h4></h3>
+                      </div>
+                      <div class="panel-body">
+                       <p>Some people believe there are bad and good networks.</p>
+                       <p>Well, depends.</p>
+
+                       <p>If you look at your network and see huge amount of loose network cables you could ask. </p>
+                       <q>What is this?</q>
+
+                       <p>However, if this functions and provide basic connectivity,  this is a network (that only requires better cable management).</p>
+                       <p>We don’t provide network cabling services but help companies to make networks better by:</p>
+                       <p></p>
+                          <div class="row text-center">
+                             <button type="button" class="btn btn-danger popB" data-container="body" data-toggle="popover" data-placement="top" data-content="Proper network devices configurations (routers, switches, wireless access points). This is starting point of well performed network. If you know network configuration from proper diagram and blueprints that’s great,">
+                              Switch A
+                            </button>
+
+                            <button type="button" class="btn btn-danger popB" data-container="body" data-toggle="popover" data-placement="top" data-content="Securing your network using different type of security measures including firewall configurations, intrusion detection systems and appropriate audit and access management policies.">
+                              Switch B
+                            </button>
+                          </div>
+                          <div class="row text-center">
+                            <button type="button" class="btn btn-danger popC" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Tuning network configuration to achieve better speed. Faster network = happy user.">
+                              Switch C
+                            </button>
+
+                            <button type="button" class="btn btn-danger popD" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Analyzing traffic, logs and advise about possible network hogs that would affect your network .">
+                              Switch D
+                            </button>
+                          </div>
+                       <hr>
+                       <p>We are partnering with some most popular vendors of network equipment like Cisco, Sonic, Netgear and others to provide the right solutions. </p>
+
+                      </div>
+                    </div>
                  </div>
                </div>
+            </div>
            </div>
        </section>
 
@@ -562,13 +641,12 @@ like Linux and Unix. They are so popular within organizations and bigger data ce
            <div class="container">
                <div class="row">
                  <div class="col-lg-12 text-center">
-                   <h2>About</h2>
-                   <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                   <h2 class="animated fadeInRightBig">About</h2>
                  </div>
                </div>
-
+               <div class="well">
                <div class="row">
-                 <div class="col-md-6 img-responsive center-block">
+                 <div class="col-md-12 img-responsive center-block s-about">
                    <svg viewbox="0 0 400 250" height="250" width="400" version="1.1" xmlns="http://www.w3.org/TR/SVG" class="s-about">
                       <!--man-->
                       <g id="move-speechM">
@@ -599,9 +677,25 @@ like Linux and Unix. They are so popular within organizations and bigger data ce
                        <ellipse cx="175" cy="210" rx="6" ry="10" id="heandW1"/>
                    </svg>
                  </div>
-                 <div class="col-md-6">
+                </div>
 
-                 </div>
+                <div class="row">
+                    <div class="col-md-4" >
+                       <h4>As Emc2vave, we are a small in size (but big in skills and talents)  team of people.</h4>
+                       <p id="firs">However our experience on different fields of IT technology allow us to perform many tasks and services as we do it well and with passion.</p>
+                       <p>We started our business activity in 2012 and working hard to provide more and more services to our clients making customers happy.</p>
+                    </div>
+                    <div class="col-md-4" id="sec">
+
+                        <p>Recently, we launched new line of services for data processing, analyzing and visualizing as demand for data analysis grows and we can provide those services at competitive price.</p>
+                         <p>Also, we offer some extensions for our standard line of services: web development, database management, web and dns hosting, linux server if this is necessary for our clients.</p>
+                    </div>
+                    <div class="col-md-4" id="sec">
+                       <p>Our goal is to provide great services and make customers happy.</p>
+                       <p>Also our prices are very competitive and attracted many businesses.</p>
+                       <p> If you have any questions about our services please feel free to contact us. We are happy to help:) </p>
+                    </div>
+                </div>
                </div>
            </div>
        </section>
@@ -609,9 +703,32 @@ like Linux and Unix. They are so popular within organizations and bigger data ce
        <footer class="footer-main">
            <div class="container">
                <div class="row">
-                   <div class="col-sm-4"></div>
-                   <div class="col-sm-4"></div>
-                   <div class="col-sm-4"></div>
+                   <div class="col-md-6">
+                     <h4>Copyright&copy;Emc2wave 2016</h4>
+                   </div>
+
+                   <div class="col-md-6">
+
+                       <ul class="list-inline">
+                           <li>
+                            <a href="https://twitter.com/emc2wave" class="btn-outline">
+                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-square-o fa-stack-2x"></i>
+                                  <i class="fa fa-twitter fa-stack-1x"></i>
+                                </span>
+                            </a>
+                           </li>
+
+                           <li>
+                              <a href="mailto:techsupport@emc2wave.com">
+                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-square-o fa-stack-2x"></i>
+                                  <i class="fa fa-envelope fa-stack-1x"></i>
+                                </span>
+                              </a>
+                           </li>
+                       </ul>
+                   </div>
                </div>
            </div>
        </footer>
